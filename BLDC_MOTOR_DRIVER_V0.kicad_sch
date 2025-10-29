@@ -1670,10 +1670,868 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-BATT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 313.69 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d580fdd-aca2-4540-96c0-42cdf0782885")
+	)
+	(junction
+		(at 313.69 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9094ff73-0377-47c8-bb5d-b742831923c1")
+	)
+	(junction
+		(at 341.63 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1220cb4-cdbd-43e2-b501-05d9830e9521")
+	)
+	(junction
+		(at 341.63 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afd239c1-decd-4306-8f2c-44e411a32ac1")
+	)
+	(wire
+		(pts
+			(xy 341.63 52.07) (xy 313.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cad9cb4-f9eb-4a8d-bc9a-5e2b35fee884")
+	)
+	(wire
+		(pts
+			(xy 341.63 35.56) (xy 341.63 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f8d439-f379-44c2-8cf2-4c92917f8dd1")
+	)
+	(wire
+		(pts
+			(xy 369.57 48.26) (xy 369.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3775fad3-d5bb-4e3c-ae47-e15c42db29f3")
+	)
+	(wire
+		(pts
+			(xy 307.34 52.07) (xy 313.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40242efc-ff4b-4ac8-be83-34bf08367f38")
+	)
+	(wire
+		(pts
+			(xy 369.57 35.56) (xy 369.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45484b45-e030-4d24-9424-081a624445f1")
+	)
+	(wire
+		(pts
+			(xy 41.91 41.91) (xy 43.18 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e304d8c-9db5-47bb-842f-0987af376c5d")
+	)
+	(wire
+		(pts
+			(xy 41.91 59.69) (xy 43.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620d9b1b-c7d2-444a-a70a-f3d1a1fe4e0c")
+	)
+	(wire
+		(pts
+			(xy 341.63 48.26) (xy 341.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c16e47-2f8d-454d-9215-7d67900ea790")
+	)
+	(wire
+		(pts
+			(xy 41.91 67.31) (xy 43.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86656e3d-ff67-40b7-85e6-0e1caeb5bb91")
+	)
+	(wire
+		(pts
+			(xy 369.57 25.4) (xy 369.57 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98549ccb-542c-4738-a5d9-7095edda58f4")
+	)
+	(wire
+		(pts
+			(xy 41.91 36.83) (xy 43.18 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992a5e79-7706-46ea-b956-011ba1c6f268")
+	)
+	(wire
+		(pts
+			(xy 369.57 21.59) (xy 341.63 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a974be67-df31-4b48-b609-7d364215cb9f")
+	)
+	(wire
+		(pts
+			(xy 41.91 54.61) (xy 43.18 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad320d6-c9eb-448d-9736-e72bf5516aec")
+	)
+	(wire
+		(pts
+			(xy 313.69 21.59) (xy 313.69 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace94665-4f2f-4fcd-b584-deab2c5aca14")
+	)
+	(wire
+		(pts
+			(xy 341.63 21.59) (xy 313.69 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0be0b2c-6388-47c6-b106-b41e686bfbb8")
+	)
+	(wire
+		(pts
+			(xy 369.57 52.07) (xy 341.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ac589d-77a5-4c58-aaee-87ffcd7dc4d8")
+	)
+	(wire
+		(pts
+			(xy 41.91 62.23) (xy 43.18 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e229dac6-ae19-4762-b636-593d0d927209")
+	)
+	(wire
+		(pts
+			(xy 313.69 35.56) (xy 313.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed44bf63-f8c6-40fb-bd1a-55a442b3d252")
+	)
+	(wire
+		(pts
+			(xy 313.69 48.26) (xy 313.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f006b7d6-1509-4380-b74e-573e59cae376")
+	)
+	(wire
+		(pts
+			(xy 341.63 21.59) (xy 341.63 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff129652-7c55-46ee-81ce-ca982bccbfef")
+	)
+	(global_label "GHC"
+		(shape input)
+		(at 361.95 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02663f3e-1e07-46fc-a4f3-bce5453d66f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.0943 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GHA"
+		(shape input)
+		(at 41.91 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ade803b-cfa0-4eaa-9a49-fad3623e06f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.2357 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GHB"
+		(shape input)
+		(at 41.91 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "102c30b1-3e74-4877-92b9-d97ea1241161")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.0543 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_B"
+		(shape input)
+		(at 208.28 -36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d05df7e-763d-4f98-8c4c-89139c8e7027")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.8528 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GHB"
+		(shape input)
+		(at 334.01 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1dd8cea3-2a7f-4b80-8283-edcd98d73cee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.1543 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GHA"
+		(shape input)
+		(at 306.07 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bf2f5f4-93ca-40c7-9e06-60b30b417cb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.3957 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GLC"
+		(shape input)
+		(at 361.95 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3df0dcc6-d98a-4a51-9a6f-cb2dc339c4c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.3967 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_C"
+		(shape input)
+		(at 369.57 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c826e0d-bd46-46a2-b831-64794ad31dea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.1428 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_A"
+		(shape input)
+		(at 313.69 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "735f5f04-53e2-441c-9d76-382b4de0b007")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.0814 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_A"
+		(shape input)
+		(at 180.34 -36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77f61d89-e532-4f84-a11e-4258d81ce7f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.7314 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GLB"
+		(shape input)
+		(at 334.01 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83e277d6-5117-455b-9be5-5d1182499f10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.4567 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GLC"
+		(shape input)
+		(at 41.91 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ae86ef8-2cd6-43e2-b64f-2cbdec2e25dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.3567 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GLA"
+		(shape input)
+		(at 306.07 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93655712-a999-47a6-9574-89fd845c9a22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.6981 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GHC"
+		(shape input)
+		(at 41.91 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95bf4844-e88e-453e-982a-057692cf09d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.0543 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GLB"
+		(shape input)
+		(at 41.91 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aadc6efd-8395-4255-b02c-5b6faaec238c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.3567 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_B"
+		(shape input)
+		(at 341.63 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cca2cb1f-81b5-47c4-a53d-e907f2dc5c5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.2028 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_C"
+		(shape input)
+		(at 236.22 -36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d41bef52-5f2a-4476-b224-dfee50f69a02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.7928 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GLA"
+		(shape input)
+		(at 41.91 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1c27dcb-11ba-424f-8bdc-50f64402623b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.5381 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "NTMFS5C468NLT1G:NTMFS5C468NLT1G")
-		(at 137.16 118.11 0)
+		(at 313.69 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1682,7 +2540,7 @@
 		(fields_autoplaced yes)
 		(uuid "2451a514-762b-4cb4-9d4d-075fe34e2417")
 		(property "Reference" "Q2"
-			(at 140.97 116.8399 0)
+			(at 317.5 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +2549,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 140.97 119.3799 0)
+			(at 317.5 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +2558,7 @@
 			)
 		)
 		(property "Footprint" "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
-			(at 137.16 118.11 0)
+			(at 313.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +2567,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntmfs5c468nl-d.pdf"
-			(at 137.16 120.904 0)
+			(at 313.69 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +2576,7 @@
 			)
 		)
 		(property "Description" "NPN 40V 37A(Tc)"
-			(at 137.16 121.412 0)
+			(at 313.69 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +2585,7 @@
 			)
 		)
 		(property "product" "NTMFS5C468NLT1G"
-			(at 137.16 121.158 0)
+			(at 313.69 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +2613,7 @@
 	)
 	(symbol
 		(lib_id "NTMFS5C468NLT1G:NTMFS5C468NLT1G")
-		(at 186.69 104.14 0)
+		(at 369.57 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1764,7 +2622,7 @@
 		(fields_autoplaced yes)
 		(uuid "3245edca-87d6-4e52-ade6-3c7411a27653")
 		(property "Reference" "Q5"
-			(at 190.5 102.8699 0)
+			(at 373.38 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +2631,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 190.5 105.4099 0)
+			(at 373.38 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +2640,7 @@
 			)
 		)
 		(property "Footprint" "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
-			(at 186.69 104.14 0)
+			(at 369.57 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +2649,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntmfs5c468nl-d.pdf"
-			(at 186.69 106.934 0)
+			(at 369.57 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +2658,7 @@
 			)
 		)
 		(property "Description" "NPN 40V 37A(Tc)"
-			(at 186.69 107.442 0)
+			(at 369.57 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2667,7 @@
 			)
 		)
 		(property "product" "NTMFS5C468NLT1G"
-			(at 186.69 107.188 0)
+			(at 369.57 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,8 +2694,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 313.69 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32cd0bae-7ba5-47fc-9c37-1d4ac9260405")
+		(property "Reference" "#PWR03"
+			(at 313.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 313.69 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 313.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a03d41bb-5647-443a-8332-e07cbbef17e4")
+		)
+		(instances
+			(project ""
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NTMFS5C468NLT1G:NTMFS5C468NLT1G")
-		(at 137.16 104.14 0)
+		(at 313.69 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1846,7 +2770,7 @@
 		(fields_autoplaced yes)
 		(uuid "4123504e-d0c5-44fa-92b5-e6c281c766ab")
 		(property "Reference" "Q1"
-			(at 140.97 102.8699 0)
+			(at 317.5 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +2779,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 140.97 105.4099 0)
+			(at 317.5 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +2788,7 @@
 			)
 		)
 		(property "Footprint" "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
-			(at 137.16 104.14 0)
+			(at 313.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +2797,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntmfs5c468nl-d.pdf"
-			(at 137.16 106.934 0)
+			(at 313.69 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +2806,7 @@
 			)
 		)
 		(property "Description" "NPN 40V 37A(Tc)"
-			(at 137.16 107.442 0)
+			(at 313.69 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +2815,7 @@
 			)
 		)
 		(property "product" "NTMFS5C468NLT1G"
-			(at 137.16 107.188 0)
+			(at 313.69 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +2843,7 @@
 	)
 	(symbol
 		(lib_id "NTMFS5C468NLT1G:NTMFS5C468NLT1G")
-		(at 161.29 118.11 0)
+		(at 341.63 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1928,7 +2852,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bb356a0-52f0-4cbe-a9ba-582b9062c875")
 		(property "Reference" "Q4"
-			(at 165.1 116.8399 0)
+			(at 345.44 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +2861,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 165.1 119.3799 0)
+			(at 345.44 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +2870,7 @@
 			)
 		)
 		(property "Footprint" "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
-			(at 161.29 118.11 0)
+			(at 341.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +2879,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntmfs5c468nl-d.pdf"
-			(at 161.29 120.904 0)
+			(at 341.63 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +2888,7 @@
 			)
 		)
 		(property "Description" "NPN 40V 37A(Tc)"
-			(at 161.29 121.412 0)
+			(at 341.63 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +2897,7 @@
 			)
 		)
 		(property "product" "NTMFS5C468NLT1G"
-			(at 161.29 121.158 0)
+			(at 341.63 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,8 +2924,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 307.34 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bfea6f7-ed69-43a6-9c09-f45b0e1a9e27")
+		(property "Reference" "#PWR01"
+			(at 307.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 307.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 307.34 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a1951a8-27d9-483b-a579-fa086e09a167")
+		)
+		(instances
+			(project ""
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NTMFS5C468NLT1G:NTMFS5C468NLT1G")
-		(at 186.69 118.11 0)
+		(at 369.57 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2010,7 +3000,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dc1e1d6-f718-4255-a6f7-e48413c825ad")
 		(property "Reference" "Q6"
-			(at 190.5 116.8399 0)
+			(at 373.38 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +3009,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 190.5 119.3799 0)
+			(at 373.38 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +3018,7 @@
 			)
 		)
 		(property "Footprint" "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
-			(at 186.69 118.11 0)
+			(at 369.57 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +3027,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntmfs5c468nl-d.pdf"
-			(at 186.69 120.904 0)
+			(at 369.57 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +3036,7 @@
 			)
 		)
 		(property "Description" "NPN 40V 37A(Tc)"
-			(at 186.69 121.412 0)
+			(at 369.57 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +3045,7 @@
 			)
 		)
 		(property "product" "NTMFS5C468NLT1G"
-			(at 186.69 121.158 0)
+			(at 369.57 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +3228,7 @@
 	)
 	(symbol
 		(lib_id "NTMFS5C468NLT1G:NTMFS5C468NLT1G")
-		(at 161.29 104.14 0)
+		(at 341.63 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2247,7 +3237,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b8faeef-c574-4ca3-8097-76bf43715662")
 		(property "Reference" "Q3"
-			(at 165.1 102.8699 0)
+			(at 345.44 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +3246,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 165.1 105.4099 0)
+			(at 345.44 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +3255,7 @@
 			)
 		)
 		(property "Footprint" "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
-			(at 161.29 104.14 0)
+			(at 341.63 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +3264,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntmfs5c468nl-d.pdf"
-			(at 161.29 106.934 0)
+			(at 341.63 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +3273,7 @@
 			)
 		)
 		(property "Description" "NPN 40V 37A(Tc)"
-			(at 161.29 107.442 0)
+			(at 341.63 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +3282,7 @@
 			)
 		)
 		(property "product" "NTMFS5C468NLT1G"
-			(at 161.29 107.188 0)
+			(at 341.63 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +3310,7 @@
 	)
 	(symbol
 		(lib_id "TB67Z833SFTG:TB67Z833SFTG")
-		(at 74.93 60.96 0)
+		(at 60.96 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2329,7 +3319,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcedea70-4700-4ab0-93e6-7910f36633d3")
 		(property "Reference" "U1"
-			(at 74.93 29.21 0)
+			(at 60.96 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +3327,7 @@
 			)
 		)
 		(property "Value" "3-phase Gate Driver"
-			(at 74.93 31.75 0)
+			(at 60.96 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +3335,7 @@
 			)
 		)
 		(property "Footprint" "TB67Z833SFTG:TB67Z833SFTG"
-			(at 74.93 60.96 0)
+			(at 60.96 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +3344,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TB67Z833SFTG_datasheet_ja_20250418.pdf?did=158622&prodName=TB67Z833SFTG"
-			(at 74.93 60.96 0)
+			(at 60.96 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +3353,7 @@
 			)
 		)
 		(property "Description" "80V 3-PHASE GATE DRIVER, SPI INT"
-			(at 74.93 60.96 0)
+			(at 60.96 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +3362,7 @@
 			)
 		)
 		(property "product" "TB67Z833SFTG"
-			(at 74.93 60.96 0)
+			(at 60.96 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

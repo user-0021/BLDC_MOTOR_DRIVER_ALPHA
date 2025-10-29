@@ -3,4 +3,7 @@
   (lib (name "TB67Z833SFTG")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/TB67Z833SFTG.kicad_sym")(options "")(descr ""))
   (lib (name "DSPIC33AK32MC102")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/DSPIC33AK32MC102.kicad_sym")(options "")(descr ""))
   (lib (name "NTMFS5C468NLT1G")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/NTMFS5C468NLT1G.kicad_sym")(options "")(descr ""))
+  (lib (name "GRM188F11H104ZA01")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/GRM188F11H104ZA01.kicad_sym")(options "")(descr ""))
+  (lib (name "NRC06F1002TRF")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/NRC06F1002TRF.kicad_sym")(options "")(descr ""))
+  (lib (name "NRC06F1001TRF")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/NRC06F1001TRF.kicad_sym")(options "")(descr ""))
 )
