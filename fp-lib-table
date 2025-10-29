@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TB67Z833SFTG")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/TB67Z833SFTG.pretty")(options "")(descr ""))
+  (lib (name "NTMFS5C468NLT1G")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/NTMFS5C468NLT1G.pretty")(options "")(descr ""))
+)

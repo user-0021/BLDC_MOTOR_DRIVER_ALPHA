@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TB67Z833SFTG")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/TB67Z833SFTG.kicad_sym")(options "")(descr ""))
+  (lib (name "DSPIC33AK32MC102")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/DSPIC33AK32MC102.kicad_sym")(options "")(descr ""))
+  (lib (name "NTMFS5C468NLT1G")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/NTMFS5C468NLT1G.kicad_sym")(options "")(descr ""))
+)
