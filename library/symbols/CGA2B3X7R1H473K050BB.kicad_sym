@@ -2,37 +2,28 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "GRM188F11H104ZA01"
+	(symbol "CGA2B3X7R1H473K050BB"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 5.334 1.016 0)
+			(at 5.08 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 5.588 -1.27 0)
+		(property "Value" "47nF"
+			(at 5.08 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at -0.508 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/JPN/GRM188F11H104ZA01-01.pdf"
-			(at -0.762 -5.08 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at -0.508 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +31,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor 50Vdc 0.1uF"
-			(at -0.762 -5.08 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
+			(at -0.508 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,8 +40,8 @@
 				(hide yes)
 			)
 		)
-		(property "product" "GRM188F11H104ZA01"
-			(at 0.254 -5.08 0)
+		(property "Description" "capacitor 47nF 50V"
+			(at -0.508 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,7 +49,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "GRM188F11H104ZA01_0_1"
+		(property "product" "CGA2B3X7R1H473K050BB"
+			(at -0.508 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CGA2B3X7R1H473K050BB_0_1"
 			(polyline
 				(pts
 					(xy -2.032 0.762) (xy 2.032 0.762)
@@ -84,7 +84,7 @@
 				)
 			)
 		)
-		(symbol "GRM188F11H104ZA01_1_1"
+		(symbol "CGA2B3X7R1H473K050BB_1_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 2.794)
