@@ -181,7 +181,7 @@
 			(pin bidirectional line
 				(at -78.74 1.27 0)
 				(length 2.54)
-				(name "OA1IN+/AD1AN1/CMP1B/RP5/RA4_"
+				(name "OA1IN+/AD1AN1/CMP1B/RP5/RA4"
 					(effects
 						(font
 							(size 1.27 1.27)
