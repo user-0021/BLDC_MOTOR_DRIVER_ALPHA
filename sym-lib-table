@@ -12,4 +12,5 @@
   (lib (name "EMK1VM100D80D00R")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/EMK1VM100D80D00R.kicad_sym")(options "")(descr ""))
   (lib (name "CC0603KRX7R9BB472")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/CC0603KRX7R9BB472.kicad_sym")(options "")(descr ""))
   (lib (name "DSPIC33AK32MC105")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/DSPIC33AK32MC105.kicad_sym")(options "")(descr ""))
+  (lib (name "SL7333-8")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SL7333-8.kicad_sym")(options "")(descr ""))
 )
