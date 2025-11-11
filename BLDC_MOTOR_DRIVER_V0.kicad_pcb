@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -175,7 +214,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 		(layer "F.Cu")
 		(uuid "05c799cb-bf48-4789-92d2-97556106666a")
-		(at 147 91.11)
+		(at 144.11 91.27)
 		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
 		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
 		(property "Reference" "J10"
@@ -277,14 +316,14 @@
 	)
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_3x6mm"
 		(layer "F.Cu")
-		(uuid "076aefb6-67bf-429f-bfcb-b82a93336c82")
-		(at 155.68 90.23)
+		(uuid "05c89995-40d3-4292-94a3-d47c02327f4a")
+		(at 155.705 90.34)
 		(descr "Wire Pad, Square, SMD Pad,  3mm x 6mm")
 		(tags "MeasurementPoint Square SMDPad 3mmx6mm ")
 		(property "Reference" "J5"
-			(at 0 -3.8 0)
+			(at 0.445 -3.8 0)
 			(layer "F.SilkS")
-			(uuid "03599778-d470-4203-890d-64a74a84993b")
+			(uuid "b42ddfed-ff12-43cd-b63b-940a5d014088")
 			(effects
 				(font
 					(size 1 1)
@@ -296,7 +335,7 @@
 			(at 0 2.54 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34700b65-f0f9-499d-84f2-8c5d34e44b93")
+			(uuid "39818746-5c3e-4c2d-ab1a-ac4c644941e3")
 			(effects
 				(font
 					(size 1 1)
@@ -308,7 +347,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f455318-d5a7-4a0d-9854-fb6593a77685")
+			(uuid "8d41b6da-e638-4a9e-b63c-29cf84efd6a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,7 +359,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e2c168c-3f6f-4aca-b120-3dc67dfcac89")
+			(uuid "8db9e518-0e53-4dad-878a-2cd8fd3204f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,7 +381,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "811338a7-b07c-484f-8b6c-784d9a151c7f")
+			(uuid "9af3e342-26bb-48e5-b414-69d1902f5d3a")
 		)
 		(fp_rect
 			(start -1.65 -3.15)
@@ -353,12 +392,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b9cbbb12-63d5-4770-ac6a-c09196ad0586")
+			(uuid "d64c5613-b061-43ab-8ebd-6dc92ef90c6b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "e535784f-d315-4084-b0a6-cb65df172849")
+			(uuid "2624f872-d68d-4bfa-a54b-0028eb780715")
 			(effects
 				(font
 					(size 1 1)
@@ -374,7 +413,7 @@
 			(net 16 "MOTOR_B")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "699b0c48-916c-49f7-9bca-56ebf8c3ea05")
+			(uuid "b02c71b4-d093-4767-ad6e-a40886b5ddee")
 		)
 		(embedded_fonts no)
 	)
@@ -592,7 +631,7 @@
 	(footprint "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
 		(layer "F.Cu")
 		(uuid "133d7cf0-8ee1-4772-8d55-1c89c45b45d5")
-		(at 148.3275 73.8725)
+		(at 147.965 75.28)
 		(property "Reference" "Q1"
 			(at 0.1 -3.91 0)
 			(unlocked yes)
@@ -846,7 +885,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 		(layer "F.Cu")
 		(uuid "192591e8-c0ce-49c3-b845-bd2ae3611985")
-		(at 143.45 91.11)
+		(at 141.27 91.27)
 		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
 		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
 		(property "Reference" "J9"
@@ -1868,7 +1907,7 @@
 	(footprint "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
 		(layer "F.Cu")
 		(uuid "3e28232a-c1be-4a98-a934-9ea6f58c05ee")
-		(at 156.0025 73.8725)
+		(at 155.64 75.28)
 		(property "Reference" "Q3"
 			(at 0.1 -3.91 0)
 			(unlocked yes)
@@ -2120,7 +2159,7 @@
 	(footprint "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
 		(layer "F.Cu")
 		(uuid "4231b942-aee2-425e-bab5-cef4adb4820c")
-		(at 156.3525 81.085 90)
+		(at 155.99 82.4925 90)
 		(property "Reference" "Q4"
 			(at 0.06 -3.865 90)
 			(unlocked yes)
@@ -2372,7 +2411,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_3x6mm"
 		(layer "F.Cu")
 		(uuid "4243700d-2cb7-4ad9-8eee-d05df74088e3")
-		(at 173.5 27.5)
+		(at 133.06 47.33)
 		(descr "Wire Pad, Square, SMD Pad,  3mm x 6mm")
 		(tags "MeasurementPoint Square SMDPad 3mmx6mm ")
 		(property "Reference" "J2"
@@ -3087,7 +3126,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 		(layer "F.Cu")
 		(uuid "526ec1c6-45be-4d30-921d-c4b6aedce3f1")
-		(at 186 27.5)
+		(at 157.7 46.77)
 		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
 		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
 		(property "Reference" "J7"
@@ -3189,7 +3228,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 		(layer "F.Cu")
 		(uuid "6273c603-8085-474a-b1b8-318918c4a415")
-		(at 139.9 91.11)
+		(at 138.43 91.27)
 		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
 		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
 		(property "Reference" "J8"
@@ -6011,7 +6050,7 @@
 	(footprint "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
 		(layer "F.Cu")
 		(uuid "953e142a-35e1-4bf8-b35d-1e33528203bb")
-		(at 148.6775 81.085 90)
+		(at 148.315 82.4925 90)
 		(property "Reference" "Q2"
 			(at 0.03 -3.83 90)
 			(unlocked yes)
@@ -6263,7 +6302,7 @@
 	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_3x6mm"
 		(layer "F.Cu")
 		(uuid "98863537-1f7e-48e9-a66c-abc7a5736ccd")
-		(at 178.05 27.5)
+		(at 167.81 47.22)
 		(descr "Wire Pad, Square, SMD Pad,  3mm x 6mm")
 		(tags "MeasurementPoint Square SMDPad 3mmx6mm ")
 		(property "Reference" "J3"
@@ -6784,10 +6823,113 @@
 			)
 		)
 	)
+	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_3x6mm"
+		(layer "F.Cu")
+		(uuid "9ed55137-980c-4ec4-8ee4-6c5709999730")
+		(at 149.65 90.34)
+		(descr "Wire Pad, Square, SMD Pad,  3mm x 6mm")
+		(tags "MeasurementPoint Square SMDPad 3mmx6mm ")
+		(property "Reference" "J4"
+			(at 0.445 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "edb64e61-dd37-49a1-8e93-4382e686f316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 2.54 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad1e4c0c-d14f-48e6-952e-25a8afd9d42a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c0b28c0-5a50-4243-ba66-7b2319e7353a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c86f6256-e24f-4a5c-bb7e-94a2638f897c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/5af3deee-253d-4434-80af-33ff5a022092")
+		(sheetname "/")
+		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_rect
+			(start -1.75 -3.25)
+			(end 1.75 3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e77bba45-a0de-448b-abb5-094221998418")
+		)
+		(fp_rect
+			(start -1.65 -3.15)
+			(end 1.65 3.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c789fd3a-605f-46d9-b0a0-197fc645169b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a5f6482f-8fc8-44ce-a719-f3733b9cb81a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 3 6)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 15 "MOTOR_A")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "9527545e-a34c-42cd-b6ef-6132ecb9eb40")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "a39dac0b-77ed-4637-80bd-f1b9f8ecf937")
-		(at 141.65 80.6)
+		(at 133.8 90.7)
 		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3 ISO7380")
 		(property "Reference" "REF**"
@@ -7282,6 +7424,109 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_3x6mm"
+		(layer "F.Cu")
+		(uuid "b0b2be1b-fa64-48c2-8b42-9f5e9f1d9363")
+		(at 161.76 90.34)
+		(descr "Wire Pad, Square, SMD Pad,  3mm x 6mm")
+		(tags "MeasurementPoint Square SMDPad 3mmx6mm ")
+		(property "Reference" "J6"
+			(at 0.445 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "b51bdedc-1cb3-4a30-816c-b71505e5ef03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 0 2.54 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f1716d0-3663-4904-9fe8-1f4b0f292440")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e51553e6-9c28-4445-89f8-aa3cc6ebdcb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f46d8f24-c892-45f8-9f0d-144e95638fc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/86bd7e40-fbf8-4293-9180-03c1277daa4f")
+		(sheetname "/")
+		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_rect
+			(start -1.75 -3.25)
+			(end 1.75 3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "99a60dc0-8966-405c-9960-8cb85ef4744a")
+		)
+		(fp_rect
+			(start -1.65 -3.15)
+			(end 1.65 3.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ee6deb0a-1821-4f05-bf9b-6f6b804160b9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6c0da498-de88-49de-9bc1-cf14432dff96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 3 6)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 17 "MOTOR_C")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "04bbbd0a-054c-4a58-8a79-fb300f646dbd")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -7899,7 +8144,7 @@
 	(footprint "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
 		(layer "F.Cu")
 		(uuid "c5d0755e-948b-4712-aa55-584fb80ec828")
-		(at 163.6775 73.8725)
+		(at 163.315 75.28)
 		(property "Reference" "Q5"
 			(at 0.1 -3.91 0)
 			(unlocked yes)
@@ -8147,109 +8392,6 @@
 				(xyz -0 -0 -0)
 			)
 		)
-	)
-	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_3x6mm"
-		(layer "F.Cu")
-		(uuid "d5be4339-6384-4609-aab6-e72d50c4b2e9")
-		(at 160.23 90.23)
-		(descr "Wire Pad, Square, SMD Pad,  3mm x 6mm")
-		(tags "MeasurementPoint Square SMDPad 3mmx6mm ")
-		(property "Reference" "J6"
-			(at 0 -3.8 0)
-			(layer "F.SilkS")
-			(uuid "a71bcda9-38f2-4c80-b9d6-98ac0a0f863d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 0 2.54 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49cf863f-b541-4e61-9315-fd86273b68cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15a03917-321c-4c0d-88d2-9757ae731fa5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da4ee58b-ee2d-48c7-b4a1-34175049c14c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/86bd7e40-fbf8-4293-9180-03c1277daa4f")
-		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_rect
-			(start -1.75 -3.25)
-			(end 1.75 3.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "19d90ec8-eebe-44af-a522-6d7cf07d83c2")
-		)
-		(fp_rect
-			(start -1.65 -3.15)
-			(end 1.65 3.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "1fd34e84-454a-437d-ac4b-e008479824d1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "0582afa5-c9c0-40ae-a01d-80d9821190f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 3 6)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 17 "MOTOR_C")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "66fb1655-b1b3-43e0-8396-30e5b1e16340")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -9917,7 +10059,7 @@
 	(footprint "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
 		(layer "F.Cu")
 		(uuid "e97c2b93-d738-4038-b6e2-a0c386d7b8f6")
-		(at 164.0275 81.085 90)
+		(at 163.665 82.4925 90)
 		(property "Reference" "Q6"
 			(at -0.045 -3.785 90)
 			(unlocked yes)
@@ -10568,113 +10710,10 @@
 			)
 		)
 	)
-	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_3x6mm"
-		(layer "F.Cu")
-		(uuid "fc75e462-92b4-4d5f-8472-9ec9eb245aa9")
-		(at 151.13 90.23)
-		(descr "Wire Pad, Square, SMD Pad,  3mm x 6mm")
-		(tags "MeasurementPoint Square SMDPad 3mmx6mm ")
-		(property "Reference" "J4"
-			(at 0 -3.8 0)
-			(layer "F.SilkS")
-			(uuid "4cf9527a-d7ac-4b13-9603-fde917045bca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 0 2.54 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f2c9287-2581-4d55-8262-59ecf00b1cc0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "569b9697-918e-4c7c-839a-8c8ee1791ef6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "453113e4-0486-4c48-8ec4-3b8de81d3705")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/5af3deee-253d-4434-80af-33ff5a022092")
-		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_rect
-			(start -1.75 -3.25)
-			(end 1.75 3.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d6a3b7c5-5b93-499f-b751-5b77f7eeb628")
-		)
-		(fp_rect
-			(start -1.65 -3.15)
-			(end 1.65 3.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "2fbf3405-2340-43ff-a0c6-f4e2ec57ab63")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "5d097b93-5fc9-4683-984c-591018d67279")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 3 6)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 15 "MOTOR_A")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "500d2dd7-f3dc-4b6e-83a5-d3da947560a8")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "14931295-44b9-4779-8cd5-832bbdda400a")
-		(at 160.2275 71.23 90)
+		(at 159.9725 75.9125 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -10690,7 +10729,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 -1.43 90)
+			(at 1.7525 0.0675 90)
 			(layer "B.Fab")
 			(uuid "82f82c7e-fa44-4203-9625-e185c5ac4438")
 			(effects
@@ -10891,7 +10930,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "a0a7ecab-aa1c-484f-b35a-bcc04ad95029")
-		(at 152.3775 71.295 90)
+		(at 152.1225 75.9775 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
@@ -10907,7 +10946,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 -1.43 90)
+			(at 1.7525 0.0675 90)
 			(layer "B.Fab")
 			(uuid "6580a377-fb3f-4d78-b52a-7e9295d148c0")
 			(effects
@@ -11108,7 +11147,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "cd178593-38c0-4c98-b6fb-29ba2ca70dc9")
-		(at 144.6375 71.265 90)
+		(at 144.3825 75.9475 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C17"
@@ -11325,7 +11364,7 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "B.Cu")
 		(uuid "cda70499-1798-4927-9398-5f22c0d4928b")
-		(at 149.5675 67.1375 90)
+		(at 154.71 65.04 90)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -11542,7 +11581,7 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "B.Cu")
 		(uuid "d07687e3-d59a-4ffb-9f9d-68c16c6b6147")
-		(at 141.8275 66.9 90)
+		(at 146.97 64.8025 90)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -11759,7 +11798,7 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "B.Cu")
 		(uuid "f0a05cd5-e873-4bbe-bff9-37388055a64d")
-		(at 157.2375 67.0975 90)
+		(at 162.38 65 90)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -11983,6 +12022,50 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "e512b25a-39a6-4fe1-a0c4-9f4e4e082293")
+	)
+	(zone
+		(net 15)
+		(net_name "MOTOR_A")
+		(layer "F.Cu")
+		(uuid "55589e2f-61c3-4330-a37b-07a452584426")
+		(hatch edge 0.5)
+		(connect_pads yes
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 145.582652 78.4) (xy 145.582652 85) (xy 145.582652 85) (xy 145.582652 91) (xy 148.282652 93.7)
+				(xy 151.382652 93.7) (xy 151.382652 85.8) (xy 150.582652 85) (xy 150.582652 79.9) (xy 150.282652 79.6)
+				(xy 149.482652 79.6) (xy 149.182652 79.3) (xy 149.182652 78.4) (xy 149.082652 78.2) (xy 145.682652 78.2)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 148.944334 78.219685) (xy 148.990089 78.272489) (xy 149.000785 78.33522) (xy 148.9945 78.404393)
+				(xy 148.9945 78.404396) (xy 148.9945 79.140614) (xy 149.000798 79.209923) (xy 149.000799 79.209928)
+				(xy 149.050504 79.369437) (xy 149.050505 79.369439) (xy 149.136935 79.512413) (xy 149.136939 79.512418)
+				(xy 149.255081 79.63056) (xy 149.255086 79.630564) (xy 149.39806 79.716994) (xy 149.398064 79.716996)
+				(xy 149.423051 79.724782) (xy 149.557574 79.766701) (xy 149.626893 79.773) (xy 150.113106 79.772999)
+				(xy 150.113113 79.772999) (xy 150.16163 79.76859) (xy 150.182426 79.766701) (xy 150.242191 79.748077)
+				(xy 150.31437 79.725586) (xy 150.328848 79.725347) (xy 150.342415 79.720287) (xy 150.363081 79.724782)
+				(xy 150.384231 79.724434) (xy 150.397801 79.732335) (xy 150.410688 79.735139) (xy 150.438942 79.75629)
+				(xy 150.546333 79.863681) (xy 150.579818 79.925004) (xy 150.582652 79.951362) (xy 150.582652 85)
+				(xy 151.346333 85.763681) (xy 151.379818 85.825004) (xy 151.382652 85.851362) (xy 151.382652 93.4055)
+				(xy 151.362967 93.472539) (xy 151.310163 93.518294) (xy 151.258652 93.5295) (xy 148.163514 93.5295)
+				(xy 148.096475 93.509815) (xy 148.075833 93.493181) (xy 145.646818 91.064166) (xy 145.613333 91.002843)
+				(xy 145.610499 90.976485) (xy 145.610499 89.711971) (xy 145.610499 89.711964) (xy 145.599886 89.592582)
+				(xy 145.587436 89.549071) (xy 145.582652 89.51496) (xy 145.582652 78.429272) (xy 145.585623 78.416682)
+				(xy 145.584612 78.40731) (xy 145.595743 78.373818) (xy 145.646408 78.272489) (xy 145.648379 78.268546)
+				(xy 145.695966 78.217387) (xy 145.759288 78.2) (xy 148.877295 78.2)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
