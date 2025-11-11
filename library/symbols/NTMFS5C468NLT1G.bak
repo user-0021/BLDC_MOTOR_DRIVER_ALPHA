@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NTMFS5C468NLT1G:NTMFS5C468NLT1G"
 			(at 0 0 0)
 			(effects
 				(font

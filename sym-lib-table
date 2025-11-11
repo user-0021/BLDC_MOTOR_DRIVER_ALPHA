@@ -13,4 +13,5 @@
   (lib (name "CC0603KRX7R9BB472")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/CC0603KRX7R9BB472.kicad_sym")(options "")(descr ""))
   (lib (name "DSPIC33AK32MC105")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/DSPIC33AK32MC105.kicad_sym")(options "")(descr ""))
   (lib (name "SL7333-8")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SL7333-8.kicad_sym")(options "")(descr ""))
+  (lib (name "HP8K22TB")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/HP8K22TB.kicad_sym")(options "")(descr ""))
 )
