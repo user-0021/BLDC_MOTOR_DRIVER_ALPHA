@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "TB67Z833SFTG")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/TB67Z833SFTG.pretty")(options "")(descr ""))
   (lib (name "NTMFS5C468NLT1G")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/NTMFS5C468NLT1G.pretty")(options "")(descr ""))
+  (lib (name "CSD87588N")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/CSD87588N.pretty")(options "")(descr ""))
 )
