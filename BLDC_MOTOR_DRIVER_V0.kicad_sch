@@ -5945,6 +5945,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 222.25) (xy 168.91 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fa049c-1b7b-4fe1-98e7-4f222c1a27ca")
+	)
+	(wire
+		(pts
 			(xy 368.3 153.67) (xy 372.11 153.67)
 		)
 		(stroke
@@ -6032,6 +6042,16 @@
 			(type default)
 		)
 		(uuid "60991aab-b4ef-4259-9544-8623520f70db")
+	)
+	(wire
+		(pts
+			(xy 176.53 240.03) (xy 176.53 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b97aa7-c358-4970-b419-9758408d36a3")
 	)
 	(wire
 		(pts
@@ -6475,6 +6495,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 223.52) (xy 176.53 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8887862b-4b24-4ba1-b687-d6d94f7039f4")
+	)
+	(wire
+		(pts
 			(xy 36.83 91.44) (xy 26.67 91.44)
 		)
 		(stroke
@@ -6642,6 +6672,16 @@
 			(type default)
 		)
 		(uuid "96abc493-6567-45b2-920b-7e4b7e439f3b")
+	)
+	(wire
+		(pts
+			(xy 176.53 241.3) (xy 168.91 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99029802-fbf3-44d1-9254-4595b11e047d")
 	)
 	(wire
 		(pts
@@ -9289,7 +9329,7 @@
 	)
 	(global_label "HB"
 		(shape input)
-		(at 167.64 245.11 0)
+		(at 168.91 231.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9299,7 +9339,7 @@
 		)
 		(uuid "ae767d83-a21d-4be5-960a-8a663fa5b9fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.2257 245.11 0)
+			(at 174.4957 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,7 +9373,7 @@
 	)
 	(global_label "HC"
 		(shape input)
-		(at 167.64 240.03 0)
+		(at 168.91 226.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9343,7 +9383,7 @@
 		)
 		(uuid "b0afcf56-e7f4-4b9c-8d99-419d7a72871d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.2257 240.03 0)
+			(at 174.4957 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,7 +9879,7 @@
 	)
 	(global_label "HA"
 		(shape input)
-		(at 167.64 250.19 0)
+		(at 168.91 236.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9849,7 +9889,7 @@
 		)
 		(uuid "ea8a9eac-96d9-490d-9dfb-1f6a6eb69958")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.0443 250.19 0)
+			(at 174.3143 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10540,7 +10580,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 162.56 240.03 180)
+		(at 163.83 226.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10548,7 +10588,7 @@
 		(dnp no)
 		(uuid "18bfe8db-c8c8-492e-a931-19f5dd077472")
 		(property "Reference" "J8"
-			(at 165.1 237.236 0)
+			(at 166.37 223.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +10596,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 163.195 238.76 0)
+			(at 164.465 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +10605,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-			(at 162.56 240.03 0)
+			(at 163.83 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +10614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 240.03 0)
+			(at 163.83 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10623,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 162.56 240.03 0)
+			(at 163.83 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11046,6 +11086,72 @@
 			(project "BLDC_MOTOR_DRIVER_V0"
 				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 176.53 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35bea6c0-a26b-4e33-912a-3bb2b9907986")
+		(property "Reference" "#PWR03"
+			(at 176.53 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 176.53 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 176.53 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eba42fb3-c44d-4e70-a4aa-0c81ae1b16e3")
+		)
+		(instances
+			(project "BLDC_MOTOR_DRIVER_V0"
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12242,6 +12348,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 176.53 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71448fc5-0c79-4fef-bd9b-1cf442f1fc55")
+		(property "Reference" "#PWR036"
+			(at 176.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d920bef-3cc9-45af-9fae-bff32682bea0")
+		)
+		(instances
+			(project "BLDC_MOTOR_DRIVER_V0"
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-BATT")
 		(at 267.97 152.4 0)
 		(unit 1)
@@ -12672,7 +12843,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 162.56 245.11 180)
+		(at 163.83 231.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12680,7 +12851,7 @@
 		(dnp no)
 		(uuid "8a4aa4fe-f8eb-42ad-b05c-6429e8fc4cb7")
 		(property "Reference" "J9"
-			(at 165.1 242.316 0)
+			(at 166.37 228.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,7 +12859,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 163.195 243.84 0)
+			(at 164.465 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +12868,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-			(at 162.56 245.11 0)
+			(at 163.83 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +12877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 245.11 0)
+			(at 163.83 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +12886,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 162.56 245.11 0)
+			(at 163.83 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12867,15 +13038,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 162.56 250.19 180)
+		(at 163.83 241.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8e5c5e12-5d0e-45f5-82ce-825698bcac9e")
-		(property "Reference" "J10"
-			(at 165.1 247.396 0)
+		(uuid "8dc80a7c-e7fe-4fff-bcdc-69ba632e5979")
+		(property "Reference" "J16"
+			(at 166.37 238.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12883,7 +13054,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 163.195 248.92 0)
+			(at 164.465 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12892,7 +13063,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-			(at 162.56 250.19 0)
+			(at 163.83 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12901,7 +13072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 250.19 0)
+			(at 163.83 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12910,7 +13081,72 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 162.56 250.19 0)
+			(at 163.83 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11ac5afe-cccf-4902-9130-929a1c392569")
+		)
+		(instances
+			(project "BLDC_MOTOR_DRIVER_V0"
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 163.83 236.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e5c5e12-5d0e-45f5-82ce-825698bcac9e")
+		(property "Reference" "J10"
+			(at 166.37 233.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 164.465 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 163.83 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,6 +16253,71 @@
 			(project "BLDC_MOTOR_DRIVER_V0"
 				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 163.83 222.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc66d9bc-2d77-4f9f-9ff2-eeeb16c652f4")
+		(property "Reference" "J15"
+			(at 166.37 219.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 164.465 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
+			(at 163.83 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 163.83 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2906b83d-4ef9-4e7d-b94c-62cd25ffc591")
+		)
+		(instances
+			(project "BLDC_MOTOR_DRIVER_V0"
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "J15")
 					(unit 1)
 				)
 			)
