@@ -5,6 +5,150 @@
 	(uuid "f8ba6892-ec81-43be-a77b-cb45d1b0b522")
 	(paper "A3")
 	(lib_symbols
+		(symbol "865080542006:865080542006"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 5.08 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22uF"
+				(at 5.334 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
+				(at -1.524 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080542006.pdf"
+				(at -1.524 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "22uF 35V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "product" "865080542006"
+				(at -1.524 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "865080542006_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "865080542006_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CC0603KRX7R9BB472:CC0603KRX7R9BB472"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2365,150 +2509,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EMK1VM100D80D00R:EMK1VM100D80D00R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 4.064 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_Elec_5x5.4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7696/MK.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "capaciter 10uF 35V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "product" "EMK1VM100D80D00R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "EMK1VM100D80D00R_0_1"
-				(rectangle
-					(start -2.286 1.016)
-					(end 2.286 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "EMK1VM100D80D00R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FIN1019MTCX:FIN1019MTCX"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4840,6 +4840,12 @@
 		(uuid "23d89f9d-dabf-4b83-95bc-7182613a82c7")
 	)
 	(junction
+		(at 120.65 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a3f99aa-4def-4c5e-8d21-6dfc69ffa92a")
+	)
+	(junction
 		(at 236.22 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4978,10 +4984,10 @@
 		(uuid "ac0c589c-3770-4512-98d2-b8ae0571fbb5")
 	)
 	(junction
-		(at 121.92 267.97)
+		(at 120.65 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af3c2236-bc45-4958-aeee-512c3e1a0a92")
+		(uuid "b0d1cd5d-6589-4744-8e73-ff1de7292a8e")
 	)
 	(junction
 		(at 364.49 176.53)
@@ -5006,12 +5012,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9b82183-337e-41b2-867e-629ec0d584dd")
-	)
-	(junction
-		(at 121.92 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb099d98-37ec-4b81-95da-add89ecc1477")
 	)
 	(junction
 		(at 59.69 205.74)
@@ -5475,7 +5475,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 267.97) (xy 138.43 267.97)
+			(xy 118.11 267.97) (xy 120.65 267.97)
 		)
 		(stroke
 			(width 0)
@@ -5642,16 +5642,6 @@
 			(type default)
 		)
 		(uuid "397426c4-f841-40ef-ae4f-363ee17f9d0f")
-	)
-	(wire
-		(pts
-			(xy 133.35 260.35) (xy 121.92 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39cc123f-1b00-489d-b5bc-d47039bc6720")
 	)
 	(wire
 		(pts
@@ -5935,7 +5925,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 260.35) (xy 121.92 260.35)
+			(xy 118.11 260.35) (xy 120.65 260.35)
 		)
 		(stroke
 			(width 0)
@@ -6102,6 +6092,16 @@
 			(type default)
 		)
 		(uuid "64eef04c-afec-48f0-952f-b54ccfebba41")
+	)
+	(wire
+		(pts
+			(xy 120.65 267.97) (xy 138.43 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65016c38-bcfb-46cf-95ff-155f81b6cddf")
 	)
 	(wire
 		(pts
@@ -7535,6 +7535,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 260.35) (xy 133.35 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b31718-4e1c-40e9-ba87-429baf776c2b")
+	)
+	(wire
+		(pts
 			(xy 377.19 185.42) (xy 364.49 185.42)
 		)
 		(stroke
@@ -7562,16 +7572,6 @@
 			(type default)
 		)
 		(uuid "e6b00bb3-f9de-447c-a891-cbd0b5b7236a")
-	)
-	(wire
-		(pts
-			(xy 118.11 267.97) (xy 121.92 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7a90b16-7291-4d6a-90b8-02ec00cc0832")
 	)
 	(wire
 		(pts
@@ -12907,6 +12907,85 @@
 		)
 	)
 	(symbol
+		(lib_id "865080542006:865080542006")
+		(at 120.65 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a5657c9-2e63-478b-8b7e-03753737af6b")
+		(property "Reference" "C19"
+			(at 124.46 262.0009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 124.46 264.5409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
+			(at 119.126 268.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080542006.pdf"
+			(at 119.126 268.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF 35V"
+			(at 120.65 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "865080542006"
+			(at 119.126 268.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "236a1b9b-9033-432c-ba8e-6849f7a77bc9")
+		)
+		(pin "1"
+			(uuid "f3c1b17d-6f31-44b9-8d8d-867f8152e609")
+		)
+		(instances
+			(project "BLDC_MOTOR_DRIVER_V0"
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 224.79 0)
 		(unit 1)
@@ -14232,82 +14311,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EMK1VM100D80D00R:EMK1VM100D80D00R")
-		(at 274.32 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1704f88-e338-4308-9d12-0a6599a4516e")
-		(property "Reference" "C16"
-			(at 279.4 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 279.4 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_5x5.4"
-			(at 274.32 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7696/MK.pdf"
-			(at 274.32 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capaciter 10uF 35V"
-			(at 274.32 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "product" "EMK1VM100D80D00R"
-			(at 274.32 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b96984d9-c532-4e73-92c0-d80b0bfb630e")
-		)
-		(pin "2"
-			(uuid "fba0304c-ba88-4c6d-9475-7f044ddaa683")
-		)
-		(instances
-			(project "BLDC_MOTOR_DRIVER_V0"
-				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CGA2B3X7R1H473K050BB:CGA2B3X7R1H473K050BB")
 		(at 306.07 130.81 0)
 		(unit 1)
@@ -14866,85 +14869,6 @@
 			(project "BLDC_MOTOR_DRIVER_V0"
 				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMK1VM100D80D00R:EMK1VM100D80D00R")
-		(at 121.92 264.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c78755c9-c7ed-4a0f-b175-95956bbf313e")
-		(property "Reference" "C20"
-			(at 125.73 262.0009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 125.73 264.5409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_5x5.4"
-			(at 121.92 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7696/MK.pdf"
-			(at 121.92 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capaciter 10uF 35V"
-			(at 121.92 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "product" "EMK1VM100D80D00R"
-			(at 121.92 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4af8db9-b473-4a98-acc7-b1a2f2754b4a")
-		)
-		(pin "2"
-			(uuid "6eb81792-4279-4194-bb70-15e0882fb040")
-		)
-		(instances
-			(project "BLDC_MOTOR_DRIVER_V0"
-				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -15957,6 +15881,85 @@
 			(project "BLDC_MOTOR_DRIVER_V0"
 				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "865080542006:865080542006")
+		(at 274.32 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f079304d-7f3f-4d70-a2ff-ebc973ee5c55")
+		(property "Reference" "C16"
+			(at 278.13 146.4309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 278.13 148.9709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
+			(at 272.796 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080542006.pdf"
+			(at 272.796 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF 35V"
+			(at 274.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "865080542006"
+			(at 272.796 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d74b1e8-ae6f-44a1-a907-68a7af0694ce")
+		)
+		(pin "1"
+			(uuid "a09ea1f7-76f0-4955-a7b8-5427bac7b23a")
+		)
+		(instances
+			(project ""
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "C16")
 					(unit 1)
 				)
 			)

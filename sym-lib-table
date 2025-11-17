@@ -18,4 +18,5 @@
   (lib (name "PA1206FRE7W0R001Z")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/PA1206FRE7W0R001Z.kicad_sym")(options "")(descr ""))
   (lib (name "FIN1019MTCX")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/FIN1019MTCX.kicad_sym")(options "")(descr ""))
   (lib (name "CSD87588N")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/CSD87588N.kicad_sym")(options "")(descr ""))
+  (lib (name "865080542006")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/865080542006.kicad_sym")(options "")(descr ""))
 )
