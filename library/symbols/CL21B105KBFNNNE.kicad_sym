@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "1276-1029-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CL21B105KBFNNNE_0_1"
 			(polyline
 				(pts

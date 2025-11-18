@@ -49,6 +49,24 @@
 				(hide yes)
 			)
 		)
+		(property "product" "HP8K22TB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "HP8K22TBCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "HP8K22TB_0_1"
 			(polyline
 				(pts

@@ -2,27 +2,63 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "TB67Z833SFTG"
+	(symbol "DSPIC33AK32MC102-I/SS"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 28.448 0)
+			(at 0 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3-phase Gate Driver"
-			(at 0 25.146 0)
+		(property "Value" "Micro controller"
+			(at 0 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TB67Z833SFTG:TB67Z833SFTG"
+		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+			(at 1.524 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33AK128MC106-Family-Data-Sheet-DS70005539.pdf"
+			(at 0.254 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32bit 200Mhz ROM:32KB RAM:8KB"
+			(at 0.254 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "DSPIC33AK32MC102-I/SS"
+			(at 0.762 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "150-DSPIC33AK32MC102-I/SS-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,37 +67,10 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TB67Z833SFTG_datasheet_ja_20250418.pdf?did=158622&prodName=TB67Z833SFTG"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "80V 3-PHASE GATE DRIVER, SPI INT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "product" "TB67Z833SFTG"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TB67Z833SFTG_1_1"
+		(symbol "DSPIC33AK32MC102-I/SS_1_1"
 			(rectangle
-				(start -15.24 26.67)
-				(end 15.24 -29.21)
+				(start -76.2 21.59)
+				(end 76.2 -20.32)
 				(stroke
 					(width 0)
 					(type solid)
@@ -70,10 +79,10 @@
 					(type background)
 				)
 			)
-			(pin power_out line
-				(at -17.78 22.86 0)
+			(pin bidirectional line
+				(at -78.74 16.51 0)
 				(length 2.54)
-				(name "CPL"
+				(name "PGD2/AD2AN6/CMP3C/ISRC2/IBIAS2/RP1/SDA2/IOMF2/RA0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -88,10 +97,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 20.32 0)
+			(pin bidirectional line
+				(at -78.74 13.97 0)
 				(length 2.54)
-				(name "CPH"
+				(name "PGC2/DACOUT1/AD1AN7/AD2AN3/CMP1D/CMP2D/CMP3D/RP2/SCL2/RA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -107,9 +116,9 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 17.78 0)
+				(at -78.74 11.43 0)
 				(length 2.54)
-				(name "VCP"
+				(name "AVSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -125,16 +134,16 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 15.24 0)
+				(at -78.74 8.89 0)
 				(length 2.54)
-				(name "VM"
+				(name "AVDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "４"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -142,10 +151,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 12.7 0)
+			(pin bidirectional line
+				(at -78.74 6.35 0)
 				(length 2.54)
-				(name "VDRAIN"
+				(name "OA1OUT/AD1AN0/CMP1A/RP3/RA2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -160,10 +169,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -17.78 10.16 0)
+			(pin bidirectional line
+				(at -78.74 3.81 0)
 				(length 2.54)
-				(name "GHA"
+				(name "OA1IN-/AD1ANN1/AD2AN0/RP4/RA3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -178,10 +187,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 7.62 0)
+			(pin bidirectional line
+				(at -78.74 1.27 0)
 				(length 2.54)
-				(name "SHA"
+				(name "OA1IN+/AD1AN1/CMP1B/RP5/RA4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -196,10 +205,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -17.78 5.08 0)
+			(pin power_out line
+				(at -78.74 -1.27 0)
 				(length 2.54)
-				(name "GLA"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -214,10 +223,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 2.54 0)
+			(pin power_in line
+				(at -78.74 -3.81 0)
 				(length 2.54)
-				(name "SPA"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -232,10 +241,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 0 0)
+			(pin bidirectional line
+				(at -78.74 -6.35 0)
 				(length 2.54)
-				(name "SNA"
+				(name "OA2OUT/AD2AN1/CMP2A/RP17/INT0/RB0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -250,10 +259,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 -2.54 0)
+			(pin bidirectional line
+				(at -78.74 -8.89 0)
 				(length 2.54)
-				(name "SNB"
+				(name "TMS/OA2IN-/AD1AN4/AD2ANN1/RP18/RB1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -268,10 +277,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 -5.08 0)
+			(pin bidirectional line
+				(at -78.74 -11.43 0)
 				(length 2.54)
-				(name "SPB"
+				(name "OA2IN+/AD2AN4/CMP2B/RP19/RB2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -286,10 +295,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -17.78 -7.62 0)
+			(pin bidirectional line
+				(at -78.74 -13.97 0)
 				(length 2.54)
-				(name "GLB"
+				(name "PGD1/AD1AN5/CMP1C/ISRC0/IBIAS0/RP20/SDA1/RB3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -304,10 +313,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 -10.16 0)
+			(pin bidirectional line
+				(at -78.74 -16.51 0)
 				(length 2.54)
-				(name "SHB"
+				(name "PGC1/AD2AN5/CMP2C/ISRC1/IBIAS1/RP21/SCL1/RB4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -322,334 +331,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -17.78 -12.7 0)
-				(length 2.54)
-				(name "GHB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -17.78 -15.24 0)
-				(length 2.54)
-				(name "GHC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -17.78 -17.78 0)
+				(at 78.74 16.51 180)
 				(length 2.54)
-				(name "SHC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -17.78 -20.32 0)
-				(length 2.54)
-				(name "GLC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 -22.86 0)
-				(length 2.54)
-				(name "SPC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 -25.4 0)
-				(length 2.54)
-				(name "SNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 17.78 21.59 180)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 19.05 180)
-				(length 2.54)
-				(name "INLC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 16.51 180)
-				(length 2.54)
-				(name "INHC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 13.97 180)
-				(length 2.54)
-				(name "INLB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 11.43 180)
-				(length 2.54)
-				(name "INHB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 8.89 180)
-				(length 2.54)
-				(name "INLA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 6.35 180)
-				(length 2.54)
-				(name "INHA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 17.78 3.81 180)
-				(length 2.54)
-				(name "DVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 17.78 1.27 180)
-				(length 2.54)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 -1.27 180)
-				(length 2.54)
-				(name "CAL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 -3.81 180)
-				(length 2.54)
-				(name "ENABLE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 -6.35 180)
-				(length 2.54)
-				(name "nCS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 -8.89 180)
-				(length 2.54)
-				(name "SCLK"
+				(name "MCLR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -664,10 +349,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -11.43 180)
+			(pin power_in line
+				(at 78.74 13.97 180)
 				(length 2.54)
-				(name "SDI"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -682,10 +367,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 17.78 -13.97 180)
+			(pin power_out line
+				(at 78.74 11.43 180)
 				(length 2.54)
-				(name "SDO"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -700,10 +385,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 17.78 -16.51 180)
+			(pin bidirectional line
+				(at 78.74 8.89 180)
 				(length 2.54)
-				(name "nFAULT"
+				(name "TDI/RP52/PWM1L/IOMD5/RD3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -718,10 +403,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -19.05 180)
+			(pin bidirectional line
+				(at 78.74 6.35 180)
 				(length 2.54)
-				(name "VREF"
+				(name "TDO/RP51/PWM1H/IOMD4/RD2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -736,10 +421,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 -21.59 180)
+			(pin bidirectional line
+				(at 78.74 3.81 180)
 				(length 2.54)
-				(name "SOA"
+				(name "TCK/RP50/PWM2L/IOMD3/RD1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -754,10 +439,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 -24.13 180)
+			(pin bidirectional line
+				(at 78.74 1.27 180)
 				(length 2.54)
-				(name "SOB"
+				(name "RP49/PWM2H/IOMD2/RD0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -772,10 +457,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 -26.67 180)
+			(pin bidirectional line
+				(at 78.74 -1.27 180)
 				(length 2.54)
-				(name "SOC"
+				(name "RP37/PWM3L/IOMD1/RC4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -783,6 +468,114 @@
 					)
 				)
 				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 78.74 -3.81 180)
+				(length 2.54)
+				(name "PGD3/RP36/PWM3H/IOMD0/RC3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 78.74 -6.35 180)
+				(length 2.54)
+				(name "PGC3/RP35/PWM4H/RC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 78.74 -8.89 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 78.74 -11.43 180)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 78.74 -13.97 180)
+				(length 2.54)
+				(name "OSCI/CLKI/RP34/IOMF6/RC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 78.74 -16.51 180)
+				(length 2.54)
+				(name "OSCO/CLKO/RP33/IOMF5/RC0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)

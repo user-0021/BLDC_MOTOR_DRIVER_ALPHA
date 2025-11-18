@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "264-TB67Z833SFTG(O,EL)CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "TB67Z833SFTG_1_1"
 			(rectangle
 				(start -15.24 26.67)

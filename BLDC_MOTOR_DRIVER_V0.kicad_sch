@@ -61,6 +61,15 @@
 					(hide yes)
 				)
 			)
+			(property "digikey" "732-8505-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "865080542006_0_1"
 				(rectangle
 					(start -2.286 0.508)
@@ -205,6 +214,15 @@
 					(hide yes)
 				)
 			)
+			(property "digikey" "311-1083-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "CC0603KRX7R9BB472_0_1"
 				(polyline
 					(pts
@@ -284,7 +302,7 @@
 				)
 			)
 			(property "Value" "47nF"
-				(at 5.08 -1.016 0)
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -320,6 +338,15 @@
 			)
 			(property "product" "CGA2B3X7R1H473K050BB"
 				(at -0.508 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "445-6897-1-ND"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -449,6 +476,15 @@
 					(hide yes)
 				)
 			)
+			(property "digikey" "1276-1029-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "CL21B105KBFNNNE_0_1"
 				(polyline
 					(pts
@@ -563,6 +599,15 @@
 				)
 			)
 			(property "product" "CSD87588N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "296-35792-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1112,6 +1157,15 @@
 					(hide yes)
 				)
 			)
+			(property "digikey" "738-CSNL2512FTL300CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "CSNL2512FTL300_0_1"
 				(rectangle
 					(start -1.016 2.54)
@@ -1574,7 +1628,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DSPIC33AK32MC105:DSPIC33AK32MC105"
+		(symbol "DSPIC33AK32MC105-IPT:DSPIC33AK32MC105-I/PT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1621,7 +1675,7 @@
 					(hide yes)
 				)
 			)
-			(property "product" "DSPIC33AK32MC105"
+			(property "product" "DSPIC33AK32MC105-I/PT"
 				(at -1.016 -55.118 0)
 				(effects
 					(font
@@ -1630,7 +1684,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "DSPIC33AK32MC105_1_1"
+			(property "digikey" "150-DSPIC33AK32MC105-I/PT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DSPIC33AK32MC105-I/PT_1_1"
 				(rectangle
 					(start -74.93 35.56)
 					(end 74.93 -31.75)
@@ -2567,6 +2630,15 @@
 					(hide yes)
 				)
 			)
+			(property "digikey" "FIN1019MTCXCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "FIN1019MTCX_0_0"
 				(rectangle
 					(start -11.43 12.7)
@@ -3080,6 +3152,15 @@
 					(hide yes)
 				)
 			)
+			(property "digikey" "none"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "GRM188F11H104ZA01_0_1"
 				(polyline
 					(pts
@@ -3202,6 +3283,15 @@
 					(hide yes)
 				)
 			)
+			(property "digikey" "4988-NRC06F1002TRFCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "NRC06F1002TRF_0_1"
 				(rectangle
 					(start -1.016 2.54)
@@ -3303,6 +3393,15 @@
 				)
 			)
 			(property "product" "TB67Z833SFTG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "264-TB67Z833SFTG(O,EL)CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4120,6 +4219,15 @@
 					(hide yes)
 				)
 			)
+			(property "digikey" "296-TLV74033PDBVRCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "TLV74033PDBVR_1_1"
 				(rectangle
 					(start -5.08 5.08)
@@ -4822,7 +4930,7 @@
 		(uuid "10b7c1fc-4718-48cf-9153-bb71b9974e08")
 	)
 	(junction
-		(at 45.72 78.74)
+		(at 44.45 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1512e45c-012e-4e7f-8e41-0d4200183df6")
@@ -5092,7 +5200,7 @@
 		(uuid "fa10e8b7-dc7d-4699-86d9-ddabd1c77e0b")
 	)
 	(junction
-		(at 45.72 91.44)
+		(at 44.45 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa7cda07-3d5c-45c9-848d-25a90366b987")
@@ -5155,7 +5263,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 78.74) (xy 45.72 81.28)
+			(xy 44.45 78.74) (xy 44.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5325,7 +5433,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 88.9) (xy 45.72 91.44)
+			(xy 44.45 88.9) (xy 44.45 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5405,7 +5513,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 83.82) (xy 66.04 83.82)
+			(xy 53.34 83.82) (xy 66.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5502,6 +5610,16 @@
 			(type default)
 		)
 		(uuid "251cbd78-2eaa-4802-9ce0-bb546fcbe0ec")
+	)
+	(wire
+		(pts
+			(xy 64.77 109.22) (xy 66.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2581f6a4-fe45-4825-a3af-2c5c881f364b")
 	)
 	(wire
 		(pts
@@ -5635,6 +5753,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 58.42) (xy 66.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3973c27f-a443-4262-9d20-71be26962be4")
+	)
+	(wire
+		(pts
 			(xy 284.48 104.14) (xy 284.48 105.41)
 		)
 		(stroke
@@ -5675,7 +5803,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 83.82) (xy 55.88 78.74)
+			(xy 53.34 83.82) (xy 53.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5885,13 +6013,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 86.36) (xy 66.04 86.36)
+			(xy 53.34 86.36) (xy 66.04 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "520933d8-233a-46e3-afef-2bd9eee87570")
+	)
+	(wire
+		(pts
+			(xy 227.33 116.84) (xy 222.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a7dedc-55ff-4752-a056-770050e0e2c1")
 	)
 	(wire
 		(pts
@@ -6225,7 +6363,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 91.44) (xy 39.37 91.44)
+			(xy 44.45 91.44) (xy 38.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6465,7 +6603,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 78.74) (xy 45.72 78.74)
+			(xy 53.34 78.74) (xy 44.45 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6975,7 +7113,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 86.36) (xy 55.88 91.44)
+			(xy 53.34 86.36) (xy 53.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7505,16 +7643,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 109.22) (xy 66.04 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2c9d76c-4d07-4618-9b3a-9e6d0bab7c00")
-	)
-	(wire
-		(pts
 			(xy 267.97 153.67) (xy 274.32 153.67)
 		)
 		(stroke
@@ -7605,6 +7733,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7c6d28-4a7a-42e2-98dc-9ce4f1f38134")
+	)
+	(wire
+		(pts
 			(xy 220.98 63.5) (xy 232.41 63.5)
 		)
 		(stroke
@@ -7622,6 +7760,16 @@
 			(type default)
 		)
 		(uuid "eb80a7e6-a342-4a7c-ba51-dc69124bd283")
+	)
+	(wire
+		(pts
+			(xy 227.33 125.73) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec827ae5-f8cd-4b3c-afd1-d0dba4541118")
 	)
 	(wire
 		(pts
@@ -7655,7 +7803,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 45.72 78.74)
+			(xy 38.1 78.74) (xy 44.45 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7775,7 +7923,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 91.44) (xy 45.72 91.44)
+			(xy 53.34 91.44) (xy 44.45 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7853,6 +8001,28 @@
 		)
 		(uuid "fbb1fdb7-999d-41c3-8af9-dfcec5cf9748")
 	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 64.77 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00d7b421-5065-43d0-9fad-938e8cf688ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1648 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "nFAULT"
 		(shape input)
 		(at 222.25 68.58 0)
@@ -7871,6 +8041,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 64.77 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "046b9696-ba1f-4b4d-9d56-e77431aebd13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1648 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8091,6 +8283,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 64.77 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d49a3f2-adc3-4023-88e9-a5e4adf56840")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1648 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 64.77 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "224cad01-ac22-43e0-a9f6-c76e33db1844")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1648 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8953,6 +9189,28 @@
 			)
 		)
 	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 66.04 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "872302c0-809e-476b-9c5b-8c09c3e64885")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.4348 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "INHC"
 		(shape input)
 		(at 222.25 71.12 0)
@@ -9142,6 +9400,28 @@
 		(uuid "95bf4844-e88e-453e-982a-057692cf09d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 306.8343 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 64.77 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98557f94-319d-41a0-9611-b53702f88fec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1648 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,6 +9730,28 @@
 		(uuid "b8ef69d4-1277-40cb-87ef-8c903402f759")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 320.8648 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 64.77 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcc4255d-a571-43c1-8506-2b990a743795")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1648 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,6 +10157,50 @@
 			)
 		)
 	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 64.77 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6709037-48fe-4102-89d8-aa9e7e134757")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1648 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 220.98 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e72692e2-1f79-42fd-9c05-f254bb5ae813")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.5852 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HA"
 		(shape input)
 		(at 168.91 236.22 0)
@@ -9877,6 +10223,28 @@
 			)
 		)
 	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 64.77 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f049c653-e68f-4df3-b07d-7da598c1510c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1648 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GLA"
 		(shape input)
 		(at 313.69 152.4 180)
@@ -9890,6 +10258,50 @@
 		(uuid "f1c27dcb-11ba-424f-8bdc-50f64402623b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.3181 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 222.25 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd2d7c03-e9a5-4b08-b3b4-92f25d21ff5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.6448 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_NC"
+		(shape input)
+		(at 64.77 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdc63de7-bcdf-4acb-b2c5-245b01465937")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.1648 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,7 +10448,7 @@
 		(at 113.03 260.35 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "07e70868-fba5-4373-9289-e6a4bb46ca13")
@@ -10076,6 +10488,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 113.03 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 113.03 260.35 0)
 			(effects
 				(font
@@ -10152,6 +10573,24 @@
 			)
 		)
 		(property "product" "NRC06F1002TRF"
+			(at 30.48 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "4988-NRC06F1002TRFCT-ND"
+			(at 30.48 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 30.48 240.03 0)
 			(effects
 				(font
@@ -10296,6 +10735,24 @@
 			)
 		)
 		(property "product" "FIN1019MTCX"
+			(at 127 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "FIN1019MTCXCT-ND"
+			(at 127 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 127 208.28 0)
 			(effects
 				(font
@@ -10484,6 +10941,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-1083-1-ND"
+			(at 381 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 381 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "291f7f25-e31f-46d8-9b3e-d70aa4fd251b")
 		)
@@ -10563,6 +11038,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "738-CSNL2512FTL300CT-ND"
+			(at 284.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 284.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea168f14-3d8f-4901-a8cc-900e6595eb15")
 		)
@@ -10583,7 +11076,7 @@
 		(at 163.83 226.06 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "18bfe8db-c8c8-492e-a931-19f5dd077472")
@@ -10623,6 +11116,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 163.83 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 163.83 226.06 0)
 			(effects
 				(font
@@ -10704,6 +11206,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "296-TLV74033PDBVRCT-ND"
+			(at 59.69 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 59.69 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a1025ce-b54b-43d9-a28b-47a45f0e862c")
 		)
@@ -10733,7 +11253,7 @@
 		(at 184.15 250.19 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "273caba3-c34f-4788-867c-1323aceb9e8b")
@@ -10773,6 +11293,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 184.15 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 184.15 250.19 0)
 			(effects
 				(font
@@ -10856,6 +11385,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-1083-1-ND"
+			(at 337.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 337.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c30264c0-992b-42b6-b425-cc91b858f54a")
 		)
@@ -10925,6 +11472,24 @@
 		)
 		(property "product" "CL21B105KBFNNNE"
 			(at 71.374 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1029-1-ND"
+			(at 71.12 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 71.12 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,6 +11641,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "738-CSNL2512FTL300CT-ND"
+			(at 370.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 370.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b75557ce-641c-4573-b5df-1839618c6b80")
 		)
@@ -11162,7 +11745,7 @@
 		(at 39.37 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11202,6 +11785,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 39.37 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 39.37 208.28 0)
 			(effects
 				(font
@@ -11495,6 +12087,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "none"
+			(at 354.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 354.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bab7a875-3949-468f-a551-006472266ef0")
 		)
@@ -11769,6 +12379,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "none"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ba774976-cbd2-4378-ae9d-cae9cd946dcf")
 		)
@@ -11840,6 +12468,24 @@
 		)
 		(property "product" "GRM188F11H104ZA01"
 			(at 364.744 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "none"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 364.49 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11925,6 +12571,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-1083-1-ND"
+			(at 294.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 294.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "580c80cd-19ff-492b-b46c-228726c2f031")
 		)
@@ -11945,7 +12609,7 @@
 		(at 162.56 256.54 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5af3deee-253d-4434-80af-33ff5a022092")
@@ -11985,6 +12649,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 162.56 256.54 0)
 			(effects
 				(font
@@ -12258,6 +12931,24 @@
 			)
 		)
 		(property "product" "NRC06F1002TRF"
+			(at 59.69 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "4988-NRC06F1002TRFCT-ND"
+			(at 59.69 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 59.69 201.93 0)
 			(effects
 				(font
@@ -12540,6 +13231,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "none"
+			(at 26.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 26.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ab4f366-f80d-4888-a1aa-dcaa5e9b67dc")
 		)
@@ -12560,7 +13269,7 @@
 		(at 184.15 245.11 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7dcd9459-50a4-431b-9e84-9a759ca65bb8")
@@ -12608,6 +13317,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikry" ""
+			(at 184.15 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1676dc0-e69f-4082-bf4b-163c6c960ea4")
 		)
@@ -12621,8 +13339,105 @@
 		)
 	)
 	(symbol
+		(lib_id "NRC06F1002TRF:NRC06F1002TRF")
+		(at 227.33 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f66ce47-da4d-4fb1-a3e9-330381c316a9")
+		(property "Reference" "R8"
+			(at 229.87 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 229.87 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.33 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.niccomp.com/wp-content/uploads/catalog/nrc.pdf"
+			(at 227.33 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "register 10k ohm 0.1W"
+			(at 227.33 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "NRC06F1002TRF"
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "4988-NRC06F1002TRFCT-ND"
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd070680-5fc9-4ba3-86bc-a2d51f6e0977")
+		)
+		(pin "2"
+			(uuid "2c89f5d5-e920-49ac-bdf8-b6c862a5c891")
+		)
+		(instances
+			(project "BLDC_MOTOR_DRIVER_V0"
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GRM188F11H104ZA01:GRM188F11H104ZA01")
-		(at 45.72 85.09 0)
+		(at 44.45 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12630,7 +13445,7 @@
 		(dnp no)
 		(uuid "7fbade13-4c24-4620-8f71-ef0450fed034")
 		(property "Reference" "C1"
-			(at 49.53 83.8199 0)
+			(at 47.752 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +13454,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 49.53 86.3599 0)
+			(at 47.752 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12648,7 +13463,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.212 90.17 0)
+			(at 43.942 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,7 +13472,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/JPN/GRM188F11H104ZA01-01.pdf"
-			(at 44.958 90.17 0)
+			(at 43.688 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12666,7 +13481,7 @@
 			)
 		)
 		(property "Description" "capacitor 50Vdc 0.1uF"
-			(at 44.958 90.17 0)
+			(at 43.688 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12675,7 +13490,25 @@
 			)
 		)
 		(property "product" "GRM188F11H104ZA01"
-			(at 45.974 90.17 0)
+			(at 44.704 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "none"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 44.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12761,6 +13594,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "none"
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "233c7a64-a6ef-44af-9cfe-05cc45adb442")
 		)
@@ -12781,7 +13632,7 @@
 		(at 162.56 266.7 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "86bd7e40-fbf8-4293-9180-03c1277daa4f")
@@ -12829,6 +13680,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikry" ""
+			(at 162.56 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90dd17b8-dd4d-4964-9a8a-43c62423af80")
 		)
@@ -12846,7 +13706,7 @@
 		(at 163.83 231.14 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8a4aa4fe-f8eb-42ad-b05c-6429e8fc4cb7")
@@ -12886,6 +13746,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 163.83 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 163.83 231.14 0)
 			(effects
 				(font
@@ -12963,6 +13832,24 @@
 		)
 		(property "product" "865080542006"
 			(at 119.126 268.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "732-8505-1-ND"
+			(at 120.65 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 120.65 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13055,7 +13942,7 @@
 		(at 113.03 250.19 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8c314e0a-be7d-44da-987c-c92aceae1640")
@@ -13103,6 +13990,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikry" ""
+			(at 113.03 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a910fead-74b9-4fbb-9d6d-7cb0cfdf5696")
 		)
@@ -13120,7 +14016,7 @@
 		(at 163.83 241.3 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8dc80a7c-e7fe-4fff-bcdc-69ba632e5979")
@@ -13168,6 +14064,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikry" ""
+			(at 163.83 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11ac5afe-cccf-4902-9130-929a1c392569")
 		)
@@ -13185,7 +14090,7 @@
 		(at 163.83 236.22 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8e5c5e12-5d0e-45f5-82ce-825698bcac9e")
@@ -13225,6 +14130,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 163.83 236.22 0)
 			(effects
 				(font
@@ -13306,6 +14220,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "1276-1029-1-ND"
+			(at 300.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 300.99 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e999f82-0f42-426f-9bd5-a624601b71d5")
 		)
@@ -13326,7 +14258,7 @@
 		(at 162.56 261.62 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8f86b84c-68cc-4a75-a2a0-ed1abee99a8b")
@@ -13366,6 +14298,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 162.56 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 162.56 261.62 0)
 			(effects
 				(font
@@ -13645,6 +14586,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "296-35792-1-ND"
+			(at 295.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 295.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "710525dd-1827-4c9c-94ed-6209c0aa51ae")
 		)
@@ -13674,7 +14633,7 @@
 		(at 184.15 255.27 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9b94bb8d-97a5-4900-9a9e-8d6534c2d75d")
@@ -13714,6 +14673,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 184.15 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 184.15 255.27 0)
 			(effects
 				(font
@@ -13795,6 +14763,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "1276-1029-1-ND"
+			(at 40.64 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 40.64 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b60c17e-c866-4640-b4c3-4bbf5b19030d")
 		)
@@ -13864,6 +14850,24 @@
 		)
 		(property "product" "CL21B105KBFNNNE"
 			(at 370.84 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1029-1-ND"
+			(at 364.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 364.49 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13949,6 +14953,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "none"
+			(at 116.84 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 116.84 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d28390c4-5fb6-4b39-ae18-6974c681211c")
 		)
@@ -13966,7 +14988,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 78.74 0)
+		(at 38.1 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13974,7 +14996,7 @@
 		(dnp no)
 		(uuid "a86173b0-f2cb-4f0c-859e-3dfd0379e654")
 		(property "Reference" "#PWR04"
-			(at 39.37 85.09 0)
+			(at 38.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13983,7 +15005,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 83.82 0)
+			(at 38.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13991,7 +15013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 78.74 0)
+			(at 38.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14000,7 +15022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 78.74 0)
+			(at 38.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,7 +15031,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 78.74 0)
+			(at 38.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14030,7 +15052,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DSPIC33AK32MC105:DSPIC33AK32MC105")
+		(lib_id "DSPIC33AK32MC105-IPT:DSPIC33AK32MC105-I/PT")
 		(at 143.51 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14082,8 +15104,26 @@
 				(hide yes)
 			)
 		)
-		(property "product" "DSPIC33AK32MC105"
+		(property "product" "DSPIC33AK32MC105-I/PT"
 			(at 142.494 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "150-DSPIC33AK32MC105-I/PT-ND"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 143.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14374,6 +15414,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "445-6897-1-ND"
+			(at 306.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 306.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a182e62-60a6-4c6a-92f6-65cabe3d3d03")
 		)
@@ -14445,6 +15503,24 @@
 			)
 		)
 		(property "product" "NRC06F1002TRF"
+			(at 387.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "4988-NRC06F1002TRFCT-ND"
+			(at 387.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 387.35 151.13 0)
 			(effects
 				(font
@@ -14602,7 +15678,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 39.37 91.44 0)
+		(at 38.1 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14610,7 +15686,7 @@
 		(dnp no)
 		(uuid "c27ce09a-5232-41a8-95e2-723e9cf24fa1")
 		(property "Reference" "#PWR02"
-			(at 39.37 95.25 0)
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,7 +15695,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 39.37 86.36 0)
+			(at 38.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14627,7 +15703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 91.44 0)
+			(at 38.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14636,7 +15712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 91.44 0)
+			(at 38.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14645,7 +15721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 39.37 91.44 0)
+			(at 38.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14722,6 +15798,24 @@
 		)
 		(property "product" "CSNL2512FTL300"
 			(at 326.136 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "738-CSNL2512FTL300CT-ND"
+			(at 327.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 327.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14936,6 +16030,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "296-35792-1-ND"
+			(at 339.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 339.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "500d9554-7d6e-4a03-a3b0-e348fb5e6024")
 		)
@@ -14955,6 +16067,72 @@
 			(project "BLDC_MOTOR_DRIVER_V0"
 				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca28b339-2d4e-4136-8c95-b7f11a4b1e47")
+		(property "Reference" "#PWR037"
+			(at 227.33 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fcdb3fb-7853-4198-a026-4a232b5d67ba")
+		)
+		(instances
+			(project "BLDC_MOTOR_DRIVER_V0"
+				(path "/f8ba6892-ec81-43be-a77b-cb45d1b0b522"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -15153,6 +16331,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "none"
+			(at 267.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 267.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60958a65-702d-4103-86d0-bb2b131bb40e")
 		)
@@ -15224,6 +16420,24 @@
 		)
 		(property "product" "GRM188F11H104ZA01"
 			(at 311.404 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "none"
+			(at 311.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 311.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,6 +16588,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "none"
+			(at 295.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 295.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "571278c9-e82d-451f-a675-787b2e00c08a")
 		)
@@ -15445,6 +16677,24 @@
 			)
 		)
 		(property "product" "NRC06F1002TRF"
+			(at 400.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "4988-NRC06F1002TRFCT-ND"
+			(at 400.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 400.05 151.13 0)
 			(effects
 				(font
@@ -15539,7 +16789,7 @@
 		(at 113.03 267.97 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e33f055e-4257-47a2-8f21-54638613995a")
@@ -15579,6 +16829,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 113.03 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 113.03 267.97 0)
 			(effects
 				(font
@@ -15670,7 +16929,7 @@
 		(at 184.15 260.35 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e5d306e5-97af-42b0-b33c-47b80e9a4d17")
@@ -15710,6 +16969,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 184.15 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 184.15 260.35 0)
 			(effects
 				(font
@@ -15786,6 +17054,24 @@
 		)
 		(property "product" "GRM188F11H104ZA01"
 			(at 284.226 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "none"
+			(at 284.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 284.48 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15871,6 +17157,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "none"
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c9d5663-84e0-4ad6-8ede-5e36a432210e")
 		)
@@ -15943,6 +17247,24 @@
 		)
 		(property "product" "865080542006"
 			(at 272.796 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "732-8505-1-ND"
+			(at 274.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 274.32 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16094,6 +17416,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "none"
+			(at 236.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 236.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "210601f0-fe21-45b3-b1f4-7a66d879831d")
 		)
@@ -16237,6 +17577,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "296-35792-1-ND"
+			(at 382.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
+			(at 382.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "02a20cbf-4d8c-4538-9cae-01165ffffdca")
 		)
@@ -16266,7 +17624,7 @@
 		(at 163.83 222.25 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fc66d9bc-2d77-4f9f-9ff2-eeeb16c652f4")
@@ -16306,6 +17664,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 163.83 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 163.83 222.25 0)
 			(effects
 				(font
@@ -16380,6 +17747,24 @@
 			)
 		)
 		(property "product" "TB67Z833SFTG"
+			(at 332.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "264-TB67Z833SFTG(O,EL)CT-ND"
+			(at 332.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikry" ""
 			(at 332.74 157.48 0)
 			(effects
 				(font

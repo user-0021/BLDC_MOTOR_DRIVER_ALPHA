@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "311-1083-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CC0603KRX7R9BB472_0_1"
 			(polyline
 				(pts

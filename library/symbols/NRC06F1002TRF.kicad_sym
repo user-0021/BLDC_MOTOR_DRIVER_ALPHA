@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "4988-NRC06F1002TRFCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "NRC06F1002TRF_0_1"
 			(rectangle
 				(start -1.016 2.54)

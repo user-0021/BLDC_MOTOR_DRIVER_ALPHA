@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "445-6897-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CGA2B3X7R1H473K050BB_0_1"
 			(polyline
 				(pts

@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "738-CSNL2512FTL300CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CSNL2512FTL300_0_1"
 			(rectangle
 				(start -1.016 2.54)

@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "NTMFS5C468NLT1GOSCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "NTMFS5C468NLT1G_0_1"
 			(polyline
 				(pts

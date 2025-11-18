@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "732-8505-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "865080542006_0_1"
 			(rectangle
 				(start -2.286 0.508)

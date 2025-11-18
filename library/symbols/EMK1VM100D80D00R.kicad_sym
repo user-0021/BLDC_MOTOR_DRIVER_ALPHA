@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 4.064 1.016 0)
+			(at 4.572 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 0 0)
+			(at 4.826 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,6 +50,15 @@
 			)
 		)
 		(property "product" "EMK1VM100D80D00R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "3222-EMK1VM100D80D00RCT-ND"
 			(at 0 0 0)
 			(effects
 				(font

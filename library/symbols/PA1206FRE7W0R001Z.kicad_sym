@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "13-PA1206FRE7W0R001ZCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "PA1206FRE7W0R001Z_0_1"
 			(rectangle
 				(start -1.016 -2.54)

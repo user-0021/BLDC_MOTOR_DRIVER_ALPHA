@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "296-TLV74033PDBVRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "TLV74033PDBVR_1_1"
 			(rectangle
 				(start -5.08 5.08)

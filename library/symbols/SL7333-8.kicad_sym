@@ -49,6 +49,24 @@
 				(hide yes)
 			)
 		)
+		(property "product" "SL7333-8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "5399-SL7333-8CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "SL7333-8_1_1"
 			(rectangle
 				(start -5.08 5.08)

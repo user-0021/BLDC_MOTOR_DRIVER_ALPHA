@@ -60,6 +60,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "FIN1019MTCXCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "FIN1019MTCX_0_0"
 			(rectangle
 				(start -11.43 12.7)
