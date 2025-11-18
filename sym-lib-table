@@ -19,4 +19,5 @@
   (lib (name "865080542006")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/865080542006.kicad_sym")(options "")(descr ""))
   (lib (name "DSPIC33AK32MC102-ISS")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/DSPIC33AK32MC102-ISS.kicad_sym")(options "")(descr ""))
   (lib (name "DSPIC33AK32MC105-IPT")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/DSPIC33AK32MC105-IPT.kicad_sym")(options "")(descr ""))
+  (lib (name "RK73H1ETTP1000F")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/RK73H1ETTP1000F.kicad_sym")(options "")(descr ""))
 )
