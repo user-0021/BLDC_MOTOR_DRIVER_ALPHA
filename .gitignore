@@ -2,3 +2,5 @@
 BLDC_MOTOR_DRIVER_V0-backups
 fp-info-cache
 *.bak
+*.csv
+*.zip

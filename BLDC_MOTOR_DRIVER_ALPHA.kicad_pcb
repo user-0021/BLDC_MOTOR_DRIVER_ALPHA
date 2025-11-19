@@ -353,7 +353,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8e5c5e12-5d0e-45f5-82ce-825698bcac9e")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -470,7 +470,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8f86b84c-68cc-4a75-a2a0-ed1abee99a8b")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.75 -3.25)
@@ -613,7 +613,7 @@
 		)
 		(path "/c8ea9c06-4585-43e2-a392-31c6530e0a8e")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -1.4 -2.65)
@@ -665,7 +665,7 @@
 			(net 23 "GHB")
 			(pinfunction "TG")
 			(pintype "input")
-			(uuid "1c5ddfad-c091-44b0-b767-c36328203072")
+			(uuid "882124c6-814d-4ac2-82d4-5da8d851bf0f")
 		)
 		(pad "2" smd rect
 			(at 0.31 -1.8)
@@ -683,7 +683,7 @@
 			(net 3 "+BATT")
 			(pinfunction "Vin")
 			(pintype "power_in")
-			(uuid "f4ecdf80-3a94-4114-b69f-88224d7a05f5")
+			(uuid "2d107420-46b9-4210-8e97-224c6ce9b4c5")
 		)
 		(pad "3" smd rect
 			(at -0.501 -0.178)
@@ -701,7 +701,7 @@
 			(net 9 "SPB")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "d59da8d0-4d4e-4f07-a1bc-efc37172d782")
+			(uuid "7e59c5ff-c909-481d-8919-b4c117634777")
 		)
 		(pad "3" smd rect
 			(at 0.288 -0.217)
@@ -710,7 +710,7 @@
 			(net 9 "SPB")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "d59da8d0-4d4e-4f07-a1bc-efc37172d782")
+			(uuid "c827742c-eb89-4105-9f9d-9c11543cfeb4")
 		)
 		(pad "3" smd rect
 			(at 0.288 0.697)
@@ -719,7 +719,7 @@
 			(net 9 "SPB")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "d59da8d0-4d4e-4f07-a1bc-efc37172d782")
+			(uuid "1495b948-9688-4881-b1c3-41be8b47d572")
 		)
 		(pad "3" smd rect
 			(at 0.31 0.869)
@@ -728,7 +728,7 @@
 			(net 9 "SPB")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "d59da8d0-4d4e-4f07-a1bc-efc37172d782")
+			(uuid "aa747014-4990-48f4-bee4-d081d1bf0d73")
 		)
 		(pad "4" smd rect
 			(at -0.698 0.96)
@@ -746,7 +746,7 @@
 			(net 24 "GLB")
 			(pinfunction "BG")
 			(pintype "input")
-			(uuid "8224f41a-b56c-4653-8aae-a2f85378e52d")
+			(uuid "ef5f7186-4f93-457a-b7ec-a5754f069dd5")
 		)
 		(pad "5" smd rect
 			(at 0 2.25)
@@ -764,7 +764,7 @@
 			(net 16 "MOTOR_B")
 			(pinfunction "SW")
 			(pintype "passive")
-			(uuid "9de1d189-1aec-4133-8d2d-01bf3abe6761")
+			(uuid "ac2ad036-1b66-450f-a91c-fc62d13142c8")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/library/models/CSD87588N.step"
@@ -872,7 +872,7 @@
 		)
 		(path "/8e6ec338-68ac-4e35-8cca-67cb30948781")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261253 -0.735)
@@ -1086,7 +1086,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8a4aa4fe-f8eb-42ad-b05c-6429e8fc4cb7")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -1201,7 +1201,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3bde6979-55c9-4039-af5f-beb0b65b5bb0")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 1.38 1.27)
@@ -1525,7 +1525,7 @@
 		)
 		(path "/2b0c8967-88f6-447b-be37-ac86175f6883")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 0.51)
@@ -1762,7 +1762,7 @@
 		)
 		(path "/83f13a65-3215-4b03-85f2-359a0170a22b")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 0.51)
@@ -1999,7 +1999,7 @@
 		)
 		(path "/0c41b228-88dd-4718-a0a5-939f4d5247f1")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.31 -2.61)
@@ -2559,7 +2559,7 @@
 		)
 		(path "/110ed549-3dfc-46cd-814b-d3e965bc8f1b")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 -0.51)
@@ -2773,7 +2773,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/07e70868-fba5-4373-9289-e6a4bb46ca13")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.75 -3.25)
@@ -2913,7 +2913,7 @@
 		)
 		(path "/4ede5259-71bd-4324-8d50-95aa2f50ed96")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -3150,7 +3150,7 @@
 		)
 		(path "/9c75d0c6-2653-4728-aed0-e7383f2dde50")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -3364,7 +3364,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8c314e0a-be7d-44da-987c-c92aceae1640")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -3504,7 +3504,7 @@
 		)
 		(path "/0840fdaa-8ec7-4da4-8419-943942ddd6ae")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -3718,7 +3718,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/18bfe8db-c8c8-492e-a931-19f5dd077472")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -3858,7 +3858,7 @@
 		)
 		(path "/edd8783b-714b-4088-9b80-368fce574084")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 -0.51)
@@ -4095,7 +4095,7 @@
 		)
 		(path "/b6598fa6-213a-4eb7-a613-17944374f9b4")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -4406,7 +4406,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7dcd9459-50a4-431b-9e84-9a759ca65bb8")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -4546,7 +4546,7 @@
 		)
 		(path "/2ed63af1-f095-4542-bdc7-0ff78652fd85")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -4783,7 +4783,7 @@
 		)
 		(path "/d6b1b99a-51a4-4d42-974d-d5e2d88d8a0c")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -4997,7 +4997,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8dc80a7c-e7fe-4fff-bcdc-69ba632e5979")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -5114,7 +5114,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9b94bb8d-97a5-4900-9a9e-8d6534c2d75d")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -5254,7 +5254,7 @@
 		)
 		(path "/2291bb83-e79f-4f92-ae8b-e6ee3a1cbe9f")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 1.56)
@@ -5638,7 +5638,7 @@
 		)
 		(path "/a9fe477b-7d46-48fe-80c0-677b4c2b8bbb")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.61 -3.61)
@@ -6541,7 +6541,7 @@
 		)
 		(path "/f7a55964-48fa-44b2-a246-0252b1814f5c")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 -0.51)
@@ -6779,7 +6779,7 @@
 		)
 		(path "/a58763ff-6894-475a-924c-0cabc7f62580")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261253 -0.735)
@@ -7016,7 +7016,7 @@
 		)
 		(path "/6820bbe5-7ada-4404-b7d9-af5db72b09b1")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -7253,7 +7253,7 @@
 		)
 		(path "/ed849588-f9a6-4ff3-953b-a0f23fefe73a")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 0.51)
@@ -7493,7 +7493,7 @@
 		)
 		(path "/98894bd4-bc94-440e-b502-57c6ccf8de30")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -1.4 -2.65)
@@ -7545,7 +7545,7 @@
 			(net 21 "GHA")
 			(pinfunction "TG")
 			(pintype "input")
-			(uuid "aa30ff3e-84aa-4a24-a70d-960986c0138c")
+			(uuid "04e17a42-28a5-4ec6-8156-59338548da97")
 		)
 		(pad "2" smd rect
 			(at 0.31 -1.8)
@@ -7563,7 +7563,7 @@
 			(net 3 "+BATT")
 			(pinfunction "Vin")
 			(pintype "power_in")
-			(uuid "d0809940-a9bc-47b6-a632-93d2978a4a5d")
+			(uuid "657790b7-0de9-4c40-b57f-4ca0001512fc")
 		)
 		(pad "3" smd rect
 			(at -0.501 -0.178)
@@ -7581,7 +7581,7 @@
 			(net 8 "SPA")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "2a13cc7b-1f81-49c5-aecf-8610f33ace7c")
+			(uuid "c832eb4e-d150-436a-b525-d8f309497dff")
 		)
 		(pad "3" smd rect
 			(at 0.288 -0.217)
@@ -7590,7 +7590,7 @@
 			(net 8 "SPA")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "2a13cc7b-1f81-49c5-aecf-8610f33ace7c")
+			(uuid "2dbd5771-88fc-4738-a0e9-2b7400ab61d9")
 		)
 		(pad "3" smd rect
 			(at 0.288 0.697)
@@ -7599,7 +7599,7 @@
 			(net 8 "SPA")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "2a13cc7b-1f81-49c5-aecf-8610f33ace7c")
+			(uuid "3e50c01f-652c-490d-a951-29613627894a")
 		)
 		(pad "3" smd rect
 			(at 0.31 0.869)
@@ -7608,7 +7608,7 @@
 			(net 8 "SPA")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "2a13cc7b-1f81-49c5-aecf-8610f33ace7c")
+			(uuid "1979899f-779c-4d11-8bd8-ed11a6109c74")
 		)
 		(pad "4" smd rect
 			(at -0.698 0.96)
@@ -7626,7 +7626,7 @@
 			(net 22 "GLA")
 			(pinfunction "BG")
 			(pintype "input")
-			(uuid "672fab9a-7d88-4d62-ae23-76793fec9922")
+			(uuid "7993ceb1-6902-4961-81ed-47a80e6b1171")
 		)
 		(pad "5" smd rect
 			(at 0 2.25)
@@ -7644,7 +7644,7 @@
 			(net 15 "MOTOR_A")
 			(pinfunction "SW")
 			(pintype "passive")
-			(uuid "b26be1d4-647a-495b-b93b-ab8aa3b970b2")
+			(uuid "7f902d2e-bc6f-406f-b66b-00a5345cdc05")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/library/models/CSD87588N.step"
@@ -7729,7 +7729,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fc66d9bc-2d77-4f9f-9ff2-eeeb16c652f4")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -7846,7 +7846,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e33f055e-4257-47a2-8f21-54638613995a")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.75 -3.25)
@@ -7986,7 +7986,7 @@
 		)
 		(path "/b7bacbde-2e4b-4a2b-97aa-a95bfe1e128a")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8223,7 +8223,7 @@
 		)
 		(path "/7fbade13-4c24-4620-8f71-ef0450fed034")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 -0.51)
@@ -8437,7 +8437,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e5d306e5-97af-42b0-b33c-47b80e9a4d17")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -8554,7 +8554,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5af3deee-253d-4434-80af-33ff5a022092")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.75 -3.25)
@@ -8791,7 +8791,7 @@
 		)
 		(path "/a7a3adb8-938e-4e89-87d0-9e085756a1a9")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -9005,7 +9005,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/86bd7e40-fbf8-4293-9180-03c1277daa4f")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.75 -3.25)
@@ -9148,7 +9148,7 @@
 		)
 		(path "/fa6892df-c49c-426c-baad-570647053555")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -1.4 -2.65)
@@ -9200,7 +9200,7 @@
 			(net 25 "GHC")
 			(pinfunction "TG")
 			(pintype "input")
-			(uuid "d35c7771-7265-4ea7-8b84-b89028cf1871")
+			(uuid "17d9d07f-ef9f-43e5-8842-815f594ae039")
 		)
 		(pad "2" smd rect
 			(at 0.31 -1.8)
@@ -9218,7 +9218,7 @@
 			(net 3 "+BATT")
 			(pinfunction "Vin")
 			(pintype "power_in")
-			(uuid "0091824c-41e3-44c0-ad2e-954d572c458a")
+			(uuid "b2f4334a-69bf-4aca-894e-0230b83e930c")
 		)
 		(pad "3" smd rect
 			(at -0.501 -0.178)
@@ -9236,7 +9236,7 @@
 			(net 10 "SPC")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "280f6859-b47c-4f5d-9bd0-07d620fda6e1")
+			(uuid "031d4787-8432-4db7-b55e-d27df03dcbd2")
 		)
 		(pad "3" smd rect
 			(at 0.288 -0.217)
@@ -9245,7 +9245,7 @@
 			(net 10 "SPC")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "280f6859-b47c-4f5d-9bd0-07d620fda6e1")
+			(uuid "99b21e44-d8e7-45c2-8209-01d1ad787d67")
 		)
 		(pad "3" smd rect
 			(at 0.288 0.697)
@@ -9254,7 +9254,7 @@
 			(net 10 "SPC")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "280f6859-b47c-4f5d-9bd0-07d620fda6e1")
+			(uuid "81db4082-5540-4fe6-9461-4ee5cff463ef")
 		)
 		(pad "3" smd rect
 			(at 0.31 0.869)
@@ -9263,7 +9263,7 @@
 			(net 10 "SPC")
 			(pinfunction "Vout")
 			(pintype "power_out")
-			(uuid "280f6859-b47c-4f5d-9bd0-07d620fda6e1")
+			(uuid "5af04d95-4747-4dc1-8bf5-048dbb02b56b")
 		)
 		(pad "4" smd rect
 			(at -0.698 0.96)
@@ -9281,7 +9281,7 @@
 			(net 26 "GLC")
 			(pinfunction "BG")
 			(pintype "input")
-			(uuid "1e450ac1-1f6b-44d7-a07e-c1e3beab3276")
+			(uuid "fbab61f5-e51c-4a93-b4ea-871bc2d82779")
 		)
 		(pad "5" smd rect
 			(at 0 2.25)
@@ -9299,7 +9299,7 @@
 			(net 17 "MOTOR_C")
 			(pinfunction "SW")
 			(pintype "passive")
-			(uuid "26f6e099-45ab-40eb-b984-9c87b5af4aa9")
+			(uuid "c9d81c56-c86a-4fe6-b224-bcbcb2bf594e")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/library/models/CSD87588N.step"
@@ -9407,7 +9407,7 @@
 		)
 		(path "/d23a37ab-8123-41a0-8166-a439846cccf3")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 0.51)
@@ -9644,7 +9644,7 @@
 		)
 		(path "/7f66ce47-da4d-4fb1-a3e9-330381c316a9")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -9881,7 +9881,7 @@
 		)
 		(path "/c41bc133-c85e-4107-8cb2-ffa7c7b008c9")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -10118,7 +10118,7 @@
 		)
 		(path "/14a3d659-333a-413f-94e4-1dc0694f0ea2")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -10356,7 +10356,7 @@
 		)
 		(path "/57dd8736-4e52-4820-9a3e-f676ba743884")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 0.51)
@@ -10593,7 +10593,7 @@
 		)
 		(path "/50860c15-78f6-4419-a0a4-2ae38f2d1584")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 0.51)
@@ -10833,7 +10833,7 @@
 		)
 		(path "/fcedea70-4700-4ab0-93e6-7910f36633d3")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3 -2.45)
@@ -11875,7 +11875,7 @@
 		)
 		(path "/7c0c576a-0f40-449b-ab28-dba657fcb652")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 -0.51)
@@ -12089,7 +12089,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/273caba3-c34f-4788-867c-1323aceb9e8b")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -1.25 -2.25)
@@ -12229,7 +12229,7 @@
 		)
 		(path "/335a8099-a864-463a-999a-1ed77d042bd8")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -12473,7 +12473,7 @@
 		)
 		(path "/429618c7-ff6c-48af-a86f-25dd646d784a")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -12627,7 +12627,7 @@
 		(property "Reference" "C16"
 			(at 0 3.7 90)
 			(layer "B.SilkS")
-			(uuid "30027da3-e1b8-4e10-ab58-d131216eef46")
+			(uuid "5eeb6fc5-d586-4734-a8da-6db59673cfcf")
 			(effects
 				(font
 					(size 1 1)
@@ -12639,7 +12639,7 @@
 		(property "Value" "22uF"
 			(at 0 -3.7 90)
 			(layer "B.Fab")
-			(uuid "f0df1020-b1c1-4742-b70c-62955a16dc53")
+			(uuid "09b115c9-bb72-4475-a65e-821fa818a40e")
 			(effects
 				(font
 					(size 1 1)
@@ -12652,7 +12652,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9cda9a7c-90bb-4d01-9783-9e914c7b3c63")
+			(uuid "ee342c1c-6fd7-4c69-a25d-4157c6e73851")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12665,7 +12665,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "12f17aa4-2059-4a05-af42-eddf375156af")
+			(uuid "2bc6532a-3ba6-4771-ae64-4099e8fff9a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12718,7 +12718,7 @@
 		)
 		(path "/f079304d-7f3f-4d70-a2ff-ebc973ee5c55")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.695563 2.76)
@@ -13194,7 +13194,7 @@
 		)
 		(path "/8a5657c9-2e63-478b-8b7e-03753737af6b")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.625 1.685)
@@ -13670,7 +13670,7 @@
 		)
 		(path "/ce4183e7-3051-4250-81d0-3de4d1a08eda")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -13901,7 +13901,7 @@
 		)
 		(path "/b7696fdc-f0db-417f-9610-8ef4473d637e")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -14055,7 +14055,7 @@
 		(property "Reference" "C17"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
-			(uuid "fdc9ece6-9967-495a-9d3d-916e47552a6b")
+			(uuid "73642f45-de3a-430b-910d-0a9f714f679e")
 			(effects
 				(font
 					(size 1 1)
@@ -14067,7 +14067,7 @@
 		(property "Value" "0.1uF"
 			(at 0 0 0)
 			(layer "B.Fab")
-			(uuid "843c4a8f-8763-4d44-84c0-64eaf4f320d2")
+			(uuid "4481aec6-61f8-4b1e-836d-d800730b8993")
 			(effects
 				(font
 					(size 1 1)
@@ -14080,7 +14080,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f6cbfe68-5019-4489-8be9-b75378b6a535")
+			(uuid "c149293f-09e0-4566-827e-41a0c40d5dd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14093,7 +14093,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "870d9e33-73ef-4ea0-b754-a804bc7be9e8")
+			(uuid "1bf14520-497e-49e9-bff8-d00ae07dd9f0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14146,7 +14146,7 @@
 		)
 		(path "/ccc942ad-16c3-4469-9d37-f755babeab44")
 		(sheetname "/")
-		(sheetfile "BLDC_MOTOR_DRIVER_V0.kicad_sch")
+		(sheetfile "BLDC_MOTOR_DRIVER_ALPHA.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
